@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Founders &amp; Coders, MVP specialists</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="">
+
+		<!-- Header -->
+			<div id="header">
+					<img class="logo" src="https://foundersandcoders.com/assets/fac-logo.png" alt="" />
+
+				<h1>IDEATE. BUILD. HANDOVER. ITERATE</h1>
+				<p>Come to our next pitch day on June 3rd to find out how we can help</a>
+					<br>
+					<br>
+					<ul class="actions">
+						<li><a href="#contact" class="button">Get in Touch</a></li>
+					</ul>
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<header class="major container 75%">
+					<h2>How we work</h2>
+				</header>
+
+				<div class="box alt container">
+					<section class="feature left">
+						<a href="#" class="image icon fa-puzzle-piece">
+							<img src="images/pic01.jpg" alt="">
+						</a>
+						<div class="content">
+							<h3>IDEATE</h3>
+							<p class="how-we-work">We work with you to understand your product and identify the key features you need to create a successful MVP.</p>
+						</div>
+					</section>
+					<section class="feature right">
+						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt=""></a>
+						<div class="content">
+							<h3>BUILD</h3>
+							<p class="how-we-work">We practice agile development, working in 'sprints' of two-week periods. This enables you to get new features out in front of your users quickly, gather feedback and then use this information to build a stronger product.</p>
+						</div>
+					</section>
+					<section class="feature left">
+						<a href="#" class="image icon fa-random"><img src="images/pic03.jpg" alt=""></a>
+						<div class="content">
+							<h3>Handover</h3>
+							<p class="how-we-work">We meet with you at the end of every sprint to walk through the features we have built, collect your feedback and make sure that the product is ready for user testing. </p>
+						</div>
+					</section><section class="feature right">
+						<a href="#" class="image icon fa-circle-o-notch"><img src="images/pic02.jpg" alt=""></a>
+						<div class="content">
+							<h3>ITERATE</h3>
+							<p class="how-we-work">We know that the early stages of building a product is full of learning. These underpin the next set of priority-1 features which will have the biggest impact on your product development and we use this to plan our next sprint.</p>
+						</div>
+					</section>
+				</div>
+
+
+				<footer class="major container 75%">
+					<h3>Who we are</h3>
+					<p class="who-we-are">We are a collective of developers, designers and product managers, all graduates of Founders &amp; Coders. The Founders &amp; Coders ethos of learning &amp; improving is at the heart of everything we do. Give us a shout to find out more!   </p>
+
+				</footer>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container 75%">
+
+					<header id="contact" class="major last">
+						<h2>Contact us</h2>
+					</header>
+
+					<p>You've made it this far, why not get in touch? </p>
+
+					<form action="https://formspree.io/hello@foundersandcoders.com" method="POST">
+						<div class="row">
+							<div class="6u 12u(mobilep)">
+								<input type="text" name="name" placeholder="Name">
+							</div>
+							<div class="6u 12u(mobilep)">
+								<input type="email" name="_replyto" placeholder="Email">
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<textarea name="message" placeholder="Message" rows="6"></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message"></li>
+								</ul>
+							</div>
+						</div>
+						<!-- REDIRCT ROUTE HERE -->
+						<input type="hidden" name="_next" value="http//pitchday.foundersandcoders.com" />
+					</form>
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/founderscoders" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/foundersandcoders/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/founderscoders/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/foundersandcoders" class="icon fa-github"><span class="label">Github</span></a></li>
+					</ul>
+
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+			<script>
+			$(document).ready(function(){
+			  $("a").on('click', function(event) {
+
+			    if (this.hash !== "") {
+			      event.preventDefault();
+
+			      var hash = this.hash;
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+
+			        window.location.hash = hash;
+			      });
+
+			    }
+			  });
+			});
+			</script>
+</body></html>

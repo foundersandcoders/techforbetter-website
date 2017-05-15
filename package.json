@@ -1,0 +1,21 @@
+{
+  "name": "founders-and-coders-mvps",
+  "version": "1.0.0",
+  "description": "A website to give more information of Founders & Coders MVP services",
+  "scripts": {
+    "browsersync": "browser-sync start --server --files 'index.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundersandcoders/graduate-mvps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foundersandcoders/graduate-mvps/issues"
+  },
+  "homepage": "https://github.com/foundersandcoders/graduate-mvps#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.11"
+  }
+}
