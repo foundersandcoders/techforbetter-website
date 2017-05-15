@@ -80,7 +80,7 @@
 
 					<p>You've made it this far, why not get in touch? </p>
 
-					<form action="https://formspree.io/jessicasalmon05@gmail.com" method="POST">
+					<form action="https://formspree.io/hello@foundersandcoders.com" method="POST">
 						<div class="row">
 							<div class="6u 12u(mobilep)">
 								<input type="text" name="name" placeholder="Name">
@@ -101,8 +101,8 @@
 								</ul>
 							</div>
 						</div>
-						<!-- redirect back to oursite after form is submitted  -->
-						<!-- <input type="hidden" name="_next" value="//OUR-URL" /> -->
+						<!-- REDIRCT ROUTE HERE -->
+						<!-- <input type="hidden" name="_next" value="http//www.foundersandcoders.solutions" /> -->
 					</form>
 
 					<ul class="icons">
@@ -124,27 +124,20 @@
 
 			<script>
 			$(document).ready(function(){
-			  // Add smooth scrolling to all links
 			  $("a").on('click', function(event) {
 
-			    // Make sure this.hash has a value before overriding default behavior
 			    if (this.hash !== "") {
-			      // Prevent default anchor click behavior
 			      event.preventDefault();
 
-			      // Store hash
 			      var hash = this.hash;
-
-			      // Using jQuery's animate() method to add smooth page scroll
-			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
 			      $('html, body').animate({
 			        scrollTop: $(hash).offset().top
 			      }, 800, function(){
 
-			        // Add hash (#) to URL when done scrolling (default click behavior)
 			        window.location.hash = hash;
 			      });
-			    } // End if
+
+			    }
 			  });
 			});
 			</script>
