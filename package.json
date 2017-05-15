@@ -1,10 +1,9 @@
 {
-  "name": "Founders & Coders MVPs",
+  "name": "founders-and-coders-mvps",
   "version": "1.0.0",
   "description": "A website to give more information of Founders & Coders MVP services",
-
   "scripts": {
-    "browsersync": "browser-sync start --server --files 'index.html'",
+    "browsersync": "browser-sync start --server --files 'index.html'"
   },
   "repository": {
     "type": "git",
