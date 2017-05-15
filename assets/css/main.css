@@ -1824,7 +1824,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #4eb980;
+		color: #409ea9;
 		text-decoration: none;
 	}
 
@@ -2043,7 +2043,7 @@
 		select:focus,
 		textarea:focus {
 			background: rgba(224, 224, 224, 0.15);
-			border-color: #4eb980;
+			border-color: #409ea9;
 		}
 
 	input[type="text"],
@@ -2327,7 +2327,7 @@
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background: #544d55;
+		background: #409ea9;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
@@ -2348,14 +2348,14 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #6e6570;
+			background: #409ea9;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background: #474148;
+			background: #409ea9;
 		}
 
 		input[type="submit"].alt,
@@ -2364,21 +2364,21 @@
 		.button.alt {
 			background: none;
 			box-shadow: inset 0 0 0 1px rgba(224, 224, 224, 0.75);
-			color: #544d55;
+			color: #409ea9;
 		}
 
 			input[type="submit"].alt:hover,
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background: rgba(224, 224, 224, 0.15);
+				background: #409ea9;
 			}
 
 			input[type="submit"].alt:active,
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background: rgba(224, 224, 224, 0.35);
+				background: #409ea9;
 			}
 
 		input[type="submit"].fit,
@@ -2507,7 +2507,7 @@
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("https://foundersandcoders.com/assets/academy.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2544,7 +2544,7 @@
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #4eb980;
+				color: #409ea9;
 			}
 
 		#header strong, #header b {
@@ -2560,21 +2560,14 @@
 		#header input[type="button"],
 		#header .button {
 			background: #ffffff;
-			color: #544d55;
+			color: #409ea9;
 		}
 
 		#header .logo {
-			background: #4eb980;
-			border-radius: 100%;
-			color: #ffffff;
 			cursor: default;
 			display: inline-block;
-			font-size: 2.25em;
-			height: 2.35em;
-			line-height: 2.35em;
+			width: 8%;
 			margin: 0 0 0.75em 0;
-			text-align: center;
-			width: 2.35em;
 		}
 
 			#header .logo.fa-paper-plane-o:before {
@@ -2597,7 +2590,7 @@
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #409ea9;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
@@ -2648,14 +2641,14 @@
 		#footer .button {
 			background: #ffffff;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #4eb980;
+			color: #409ea9;
 		}
 
 			#footer input[type="submit"]:hover,
 			#footer input[type="reset"]:hover,
 			#footer input[type="button"]:hover,
 			#footer .button:hover {
-				background: rgba(224, 224, 224, 0.15);
+				background: #409ea9;
 				color: #ffffff;
 			}
 
@@ -2762,7 +2755,7 @@
 				}
 
 				#header p {
-					font-size: 1.25em;
+					font-size: 1.5em;
 					line-height: 1.65em;
 				}
 
@@ -2823,7 +2816,7 @@
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("https://foundersandcoders.com/assets/academy.jpg");
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
@@ -2841,7 +2834,7 @@
 				}
 
 				#header p {
-					font-size: 1.15em;
+					font-size: 1.35em;
 				}
 
 		/* Footer */
@@ -2985,7 +2978,7 @@
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("https://foundersandcoders.com/assets/academy.jpg");
 				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
 			}
@@ -3007,7 +3000,7 @@
 				}
 
 				#header p {
-					font-size: 1em;
+					font-size: 1.25em;
 				}
 
 		/* Footer */
@@ -3064,6 +3057,7 @@
 
 				ul.actions li:first-child {
 					padding: 0;
+					margin: 1em 5em;
 				}
 
 		/* Button */
@@ -3125,4 +3119,15 @@
 					display: none;
 				}
 
+	}
+
+	.who-we-are {
+		font-size: 1.2em;
+		line-height: 1.6em;
+		letter-spacing: 0.012em;
+		margin: 0
+	}
+
+	.how-we-work {
+		font-size: 1.15em;
 	}

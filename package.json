@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/foundersandcoders/graduate-mvps/issues"
   },
-  "homepage": "https://github.com/foundersandcoders/graduate-mvps#readme"
+  "homepage": "https://github.com/foundersandcoders/graduate-mvps#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.11"
+  }
 }
