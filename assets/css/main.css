@@ -3132,3 +3132,39 @@
 	.how-we-work {
 		font-size: 1.15em;
 	}
+
+	.section-copy {
+		background-color: #fff;
+		padding-top: 32px;
+	}
+
+	.portfolio-intro {
+	  width: 95%;
+	  margin: auto;
+	}
+
+	.portfolio_table {
+	  width: 100%;
+	  margin: auto;
+	  margin-top: 5vh;
+	  text-align: center;
+	}
+
+	.portfolio_item_container {
+	  width: 30%;
+	  max-height: 4.5vh;
+	}
+
+	.portfolio_item_image {
+	  max-width: 80%;
+	  margin: 10% auto;
+	  // @media (min-width: $tablet) {
+	  //   opacity: 0.5;
+	  //   :hover {
+	  //     opacity: 1;
+	  //   }
+	  // }
+	  // @media (max-width: $tablet) {
+	  //   opacity: 0.8;
+	  // }
+	}
