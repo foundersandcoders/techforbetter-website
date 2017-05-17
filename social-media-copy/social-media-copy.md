@@ -16,7 +16,7 @@ You can find out more here, or get in touch with me.
 
 Hi everyone,
 
-I’ve just completed [Founders & Coders] web development bootcamp and we are currently taking on new projects.
+Our team of developers at Founders & Coders is currently taking on new projects.
 
 If you have an idea for a startup or have a business that hasn’t yet taken advantage of the digital market, we can help!
 
