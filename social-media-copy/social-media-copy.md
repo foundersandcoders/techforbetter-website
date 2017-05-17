@@ -4,11 +4,11 @@ All posts link to pitchday.foundersandcoders.com
 
 Hi everyone!
 
-My web development team @foundersandcoders are taking on new projects.
+My web development team @foundersandcoders is taking on new projects.
 
 If you have a business idea, or know someone who does, we'd love to build it.  
 
-You can find out more here, or get in touch with me.
+You can find out more [here](http://pitchday.foundersandcoders.com/), or get in touch with me.
 
 
 
@@ -20,9 +20,9 @@ Our team of developers at Founders & Coders is currently taking on new projects.
 
 If you have an idea for a startup or have a business that hasn’t yet taken advantage of the digital market, we can help!
 
-You can find out more here, or get in touch with me.
+You can find out more [here](http://pitchday.foundersandcoders.com/), or get in touch with me.
 
 
 
 **Twitter**
-We’re currently taking on new web development projects @founderscoders. Whether you have an idea or existing product, we can help! DM or visit:
+We’re currently taking on new projects. Whether you have an idea or existing product, we can help! DM or visit http://bit.ly/2qrOT7y
