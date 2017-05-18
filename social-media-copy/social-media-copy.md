@@ -25,4 +25,4 @@ You can find out more [here](http://pitchday.foundersandcoders.com/), or get in 
 
 
 **Twitter**
-We’re currently taking on new projects. Whether you have an idea or existing product, we can help! DM or visit http://bit.ly/2qrOT7y
+We’re taking on new web development projects! Whether you have an idea or existing product, we can help! DM or visit http://bit.ly/2qrOT7y
