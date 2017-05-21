@@ -3135,7 +3135,7 @@
 
 	.section-copy {
 		background-color: #fff;
-		padding-top: 32px;
+		padding-top: 2em;
 	}
 
 	.portfolio-intro {
@@ -3144,27 +3144,28 @@
 	}
 
 	.portfolio_table {
-	  width: 100%;
-	  margin: auto;
-	  margin-top: 5vh;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 	  text-align: center;
 	}
 
 	.portfolio_item_container {
-	  width: 30%;
-	  max-height: 4.5vh;
+		margin: 0.3em;
 	}
+
+	@media screen and (min-width: 736px) {
+
+		.portfolio_table {
+			grid-template-columns: 25% 25% 25% 25%;
+		}
+
+		.portfolio_item_container {
+			margin: 1em;
+		}
+	}
+
+
 
 	.portfolio_item_image {
 	  max-width: 80%;
-	  margin: 10% auto;
-	  // @media (min-width: $tablet) {
-	  //   opacity: 0.5;
-	  //   :hover {
-	  //     opacity: 1;
-	  //   }
-	  // }
-	  // @media (max-width: $tablet) {
-	  //   opacity: 0.8;
-	  // }
 	}
