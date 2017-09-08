@@ -3132,3 +3132,40 @@
 	.how-we-work {
 		font-size: 1.15em;
 	}
+
+	.section-copy {
+		background-color: #fff;
+		padding-top: 2em;
+	}
+
+	.portfolio-intro {
+	  width: 95%;
+	  margin: auto;
+	}
+
+	.portfolio_table {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	  text-align: center;
+	}
+
+	.portfolio_item_container {
+		margin: 0.3em;
+	}
+
+	@media screen and (min-width: 736px) {
+
+		.portfolio_table {
+			grid-template-columns: 25% 25% 25% 25%;
+		}
+
+		.portfolio_item_container {
+			margin: 1em;
+		}
+	}
+
+
+
+	.portfolio_item_image {
+	  max-width: 80%;
+	}
