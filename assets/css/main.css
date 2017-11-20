@@ -1915,7 +1915,7 @@
 			border-color: rgba(224, 224, 224, 0.75);
 			border-style: solid;
 			border-top-width: 1px;
-			margin-bottom: 6em;
+			margin-bottom: 3rem;
 			padding: 4em 0;
 			position: relative;
 		}
@@ -2247,10 +2247,11 @@
 	ul.actions {
 		cursor: default;
 		text-align: center;
+
 	}
 
 		ul.actions:last-child {
-			margin-bottom: 0;
+			margin-bottom: 1rem;
 		}
 
 		ul.actions li {
@@ -2515,6 +2516,7 @@
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
+		padding-bottom: 3rem;
 	}
 
 		#header:before, #header:after {
