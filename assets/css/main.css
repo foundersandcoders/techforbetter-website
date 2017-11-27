@@ -191,6 +191,10 @@
 
 	@media screen and (max-width: 736px) {
 
+		.video {
+			max-width: 400px;
+		}
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 112.5%;
@@ -216,6 +220,10 @@
 	}
 
 	@media screen and (max-width: 480px) {
+
+		.video {
+			max-width: 250px;
+		}
 
 		.container.\31 25\25 {
 			width: 100%;
