@@ -2163,7 +2163,7 @@
 				z-index: 1;
 			}
 
-			.image.icon:hover:before {
+			/* .image.icon:hover:before {
 				-moz-transform: translateZ(1em);
 				-webkit-transform: translateZ(1em);
 				-ms-transform: translateZ(1em);
@@ -2172,7 +2172,7 @@
 
 			.image.icon:hover:after {
 				opacity: 1;
-			}
+			} */
 
 	span.image.icon {
 		cursor: default;
