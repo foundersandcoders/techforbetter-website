@@ -20,8 +20,8 @@
 			<div id="header">
 					<img class="logo" src="https://foundersandcoders.com/assets/fac-logo.png" alt="" />
 
-				<h1>IDEATE. BUILD. DELIVER. ITERATE.</h1>
-				<p>Come to our pitch day to find out how we can help</a>
+				<h1>TECHNOLOGY FOR GOOD</h1>
+				<p>Scroll down to find out how we can help</a>
 					<br>
 					<br>
 					<ul class="actions">
@@ -32,46 +32,21 @@
 		<!-- Main -->
 			<div id="main">
 
-				<header class="major container 75%">
-					<h2>How we work</h2>
-				</header>
-
-				<div class="box alt container">
-					<section class="feature left">
-						<a href="#" class="image icon fa-puzzle-piece">
-							<img src="images/pic01.jpg" alt="">
-						</a>
-						<div class="content">
-							<h3>IDEATE</h3>
-							<p class="how-we-work">We work with you to understand your product and identify the key features you need to create a successful MVP.</p>
-						</div>
-					</section>
-					<section class="feature right">
-						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt=""></a>
-						<div class="content">
-							<h3>BUILD</h3>
-							<p class="how-we-work">We practice agile development, working in 'sprints' of two-week periods. This enables you to get new features in front of your users quickly, gather feedback, and use the information to build a stronger product.</p>
-						</div>
-					</section>
-					<section class="feature left">
-						<a href="#" class="image icon fa-random"><img src="images/pic03.jpg" alt=""></a>
-						<div class="content">
-							<h3>DELIVER</h3>
-							<p class="how-we-work">We meet with you at the end of every sprint to walk through the features, collect your feedback, and ensure the product is ready for user-testing. </p>
-						</div>
-					</section><section class="feature right">
-						<a href="#" class="image icon fa-circle-o-notch"><img src="images/pic02.jpg" alt=""></a>
-						<div class="content">
-							<h3>ITERATE</h3>
-							<p class="how-we-work">We know that building a product is a learning process. We work with you to quickly iterate and add key features in priority order. We help develop your product roadmap to reflect the things most important to you at every stage of the process.</p>
-						</div>
-					</section>
-				</div>
-
+				<footer class="major container 75%">
+					<h3>Who are we?</h2>
+				<p class="who-we-are">Founders & Coders is a tuition-free web development course, facilitated by peer-led
+					learning and with a focus on creating software to make the world a better place.</p><br>
+					<iframe class="video" src="https://player.vimeo.com/video/188014263" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<p><a href="https://vimeo.com/188014263">Founders &amp; Coders</a> from <a href="https://vimeo.com/user35374055">Founders &amp; Coders</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+				</footer>
 
 				<footer class="major container 75%">
-					<h3>Who we are</h3>
-					<p class="who-we-are">We are a collective of developers, designers, and product managers, all graduates of <a href="https://foundersandcoders.com/">Founders & Coders</a> in London. The Founders & Coders ethos of learning and improving is at the heart of everything we do. </p>
+					<h3>What do we offer?</h3>
+					<p>Our course has a specific focus on tech for good where students build apps for charities and NGOs.
+						After an intensive learning period, students work in teams on a final project to design and build tech
+						solutions to solve a problem identified by a partner organisation. We spend one week sketching out the
+						problem and creating a design in close collaboration with our partner organisation. We then spend two
+						weeks creating a functioning prototype, ready for people to test. Don’t worry if your organisation doesn't yet have a clear idea of how technology can help you. During our design week, we will identify your issues and come up with creative and realistic solutions. Following the initial three week process, there is the option to invest in projects to be developed further. This has resulted in a number of successful collaborations with a wide range of organisations.</p>
 					<br>
 					<ul class="actions">
 						<li><a href="#contact" class="button">Give us a shout to find out more!</a></li>
@@ -82,98 +57,179 @@
 				<div class="section-copy">
 					<div class="container">
 						<div class='portfolio-intro'>
-							<h3>Portfolio</h3>
+							<h3>Check out our previous work</h3>
 						</div>
 						<div class='portfolio_table'>
+								<div id="myModal" class="modal">
+										<!-- The Close Button -->
+										<span class="close">&times;</span>
+										<!-- Modal Content (The Image) -->
+										<img class="modal-content" src="" id="img01">
+										<!-- Modal Caption (Image Text) -->
+										<div id="caption">
+											<h1 id="caption-header"></h1>
+											<p id="caption-paragraph"></p>
+										</div>
+								</div>
 								<div class='portfolio_item_container'>
 										<img
+											id="all-about-me"
 											class='portfolio_item_image'
-											src='images/portfolio/anna_freud.png'
-											alt='Anna Freud Center'
+											src='images/all-about-me.png'
+											alt='test alt text'
+											onclick="imageModal(this)"
 											/>
 								</div>
 								<div class='portfolio_item_container'>
 										<img
+											id="breathe-with-me"
 											class='portfolio_item_image'
-											src='images/portfolio/cast.png'
-											alt='Cast Centre for Acceleration of Social Technology'
+											src='images/breath-with-me.png'
+											alt=''
+											onclick="imageModal(this)"
 											/>
 								</div>
 								<div class='portfolio_item_container'>
 										<img
+											id="echo"
 											class='portfolio_item_image'
-											src='images/portfolio/camden.png'
-											alt='Camden Council'
+											src='images/echo.png'
+											alt=''
+											onclick="imageModal(this)"
 											/>
 								</div>
 								<div class='portfolio_item_container'>
 										<img
+											id="data-power"
 											class='portfolio_item_image'
-											src='images/portfolio/nhs.png'
-											alt='National Health Society UK'
+											src='images/data-power.png'
+											alt=''
+											onclick="imageModal(this)"
 											/>
 								</div>
 								<div class='portfolio_item_container'>
 										<img
+											id="grow"
 											class='portfolio_item_image'
-											src='images/portfolio/roundabout.png'
-											alt='Roundabout Homeless Charity'
+											src='images/grow.png'
+											alt=''
+											onclick="imageModal(this)"
 											/>
 								</div>
-								<div class='portfolio_item_container'>
-										<img
-											class='portfolio_item_image'
-											src='images/portfolio/quaker_social_action.png'
-											alt='Quaker Social Action'
-											/>
-								</div>
-								<div class='portfolio_item_container'>
-										<img
-											class='portfolio_item_image'
-											src='images/portfolio/birkbeck.png'
-											alt='Birkbeck University London'
-											/>
-								</div>
-								<div class='portfolio_item_container'>
-										<img
-											class='portfolio_item_image'
-											src='images/portfolio/fat_lama.png'
-											alt='Fat Lama'
-											/>
-								</div>
-								<div class='portfolio_item_container'>
-										<img
-											class='portfolio_item_image'
-											src='images/portfolio/queen_mary_uni.png'
-											alt='Queen Mary University London'
-											/>
-								</div>
-								<div class='portfolio_item_container'>
-									<img
-										class='portfolio_item_image'
-										src='images/portfolio/royal_holloway.png'
-										alt='Royal Holloway'
-										/>
-								</div>
-								<div class='portfolio_item_container'>
-										<img
-											class='portfolio_item_image'
-											src='images/portfolio/hackney_learning_trust.png'
-											alt='Hackney Learning Trust'
-											/>
-								</div>
-								<div class='portfolio_item_container'>
-										<img
-											class='portfolio_item_image'
-											src='images/portfolio/science_museum.png'
-											alt='Science Museum'
-											/>
-								</div>
+
 						</div>
 					</div>
 				</div>
 
 			</div>
+
+			<div class="section-copy">
+				<div class="container">
+					<div class='portfolio-intro'>
+						<h3>People we've worked with:</h3>
+					</div>
+					<div class='portfolio_table'>
+							<div class='portfolio_item_logo'>
+									<img
+										id="anna-freud"
+										class='portfolio_item_image2'
+										src='images/portfolio/anna_freud.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="birkbeck"
+										class='portfolio_item_image2'
+										src='images/portfolio/birkbeck.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="camden"
+										class='portfolio_item_image2'
+										src='images/portfolio/camden.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="cast"
+										class='portfolio_item_image2'
+										src='images/portfolio/cast.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="hackney-learning-trust"
+										class='portfolio_item_image2'
+										src='images/portfolio/hackney_learning_trust.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="nhs"
+										class='portfolio_item_image2'
+										src='images/portfolio/nhs.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="on-purpose"
+										class='portfolio_item_image2'
+										src='images/portfolio/on_purpose.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="queen-mary"
+										class='portfolio_item_image2'
+										src='images/portfolio/queen_mary_uni.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="roundabout"
+										class='portfolio_item_image2'
+										src='images/portfolio/roundabout.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="royal_holloway"
+										class='portfolio_item_image2'
+										src='images/portfolio/royal_holloway.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="safe_lives"
+										class='portfolio_item_image2'
+										src='images/portfolio/safe_lives.png'
+										/>
+							</div>
+							<div class='portfolio_item_logo'>
+									<img
+										id="safer_together"
+										class='portfolio_item_image2'
+										src='images/portfolio/safer_together.png'
+										/>
+							</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+			<footer class="major container 75%" style="margin-bottom: 50px;">
+				<h2>Find out more</h2>
+				<p class="who-we-are">We are currently looking for projects to start in mid-January 2018.<br><br>
+To take part in our program we ask for organisations to pay a deposit securing their place for the first three week build. If you are interested in further work after the functioning prototype is completed, this money is used to pay for a further two weeks of development of the app/website. If you are not interested in further development the full deposit is refunded.<br><br>
+The refundable deposits are £3000, however if you are unable to meet this cost we have a limited number of free spaces for the first three week design and build process.<br><br>
+We are happy to discuss any aspects of the process further, so please get in touch with any questions.</p>
+				<br>
+
+			</footer>
 
 
 
