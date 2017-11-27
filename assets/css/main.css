@@ -3152,16 +3152,136 @@
 	}
 
 	.portfolio_table {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-	  text-align: center;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
 	}
 
 	.portfolio_item_container {
-		margin: 0.3em;
+		margin: 1em;
+		width: 25%;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
 	}
 
-	@media screen and (min-width: 736px) {
+	.portfolio_item_logo {
+		margin: 1em;
+		width: 25%;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+	}
+
+	.portfolio_item_image {
+	  max-width: 100%;
+		cursor: pointer;
+		-moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+	}
+
+	.portfolio_item_image:hover {
+		-moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+	}
+
+	.portfolio_item_image2 {
+	  max-width: 100%;
+	}
+
+
+	.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	}
+
+	/* Modal Content (Image) */
+	.modal-content {
+	    margin: auto;
+	    display: block;
+	    max-height: 50%;
+	    max-width: 75%;
+	}
+
+	/* Caption of Modal Image (Image Text) - Same Width as the Image */
+	#caption {
+	    margin: auto;
+	    display: block;
+	    width: 80%;
+	    max-width: 700px;
+	    color: #ccc;
+	    padding: 10px 0;
+	    height: 150px;
+	}
+
+	#caption-header {
+		text-align: center;
+		color: white;
+	}
+
+	#caption-paragraph {
+		text-align: left;
+
+	}
+
+	/* Add Animation - Zoom in the Modal */
+	.modal-content, #caption {
+	    -webkit-animation-name: zoom;
+	    -webkit-animation-duration: 0.6s;
+	    animation-name: zoom;
+	    animation-duration: 0.6s;
+	}
+
+	@-webkit-keyframes zoom {
+	    from {-webkit-transform:scale(0)}
+	    to {-webkit-transform:scale(1)}
+	}
+
+	@keyframes zoom {
+	    from {transform:scale(0)}
+	    to {transform:scale(1)}
+	}
+
+	/* The Close Button */
+	.close {
+	    position: absolute;
+	    top: 15px;
+	    right: 35px;
+	    color: #f1f1f1;
+	    font-size: 40px;
+	    font-weight: bold;
+	    transition: 0.3s;
+	}
+
+	.close:hover,
+	.close:focus {
+	    color: #bbb;
+	    text-decoration: none;
+	    cursor: pointer;
+	}
+
+	/* 100% Image Width on Smaller Screens */
+	@media only screen and (max-width: 700px){
+		.portfolio_item_image {
+			width: 75%;
+			height: 75%;
+		}
+	}
+
+
+	@media screen and (max-width: 736px) {
 
 		.portfolio_table {
 			grid-template-columns: 25% 25% 25% 25%;
@@ -3169,11 +3289,10 @@
 
 		.portfolio_item_container {
 			margin: 1em;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
 		}
-	}
 
-
-
-	.portfolio_item_image {
-	  max-width: 80%;
 	}
