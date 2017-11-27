@@ -3153,7 +3153,17 @@
 	.portfolio_item_container {
 		margin: 1em;
 		width: 25%;
-		overflow: hidden;		
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+	}
+
+	.portfolio_item_logo {
+		margin: 1em;
+		width: 25%;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
 	}
 
 	.portfolio_item_image {
@@ -3169,6 +3179,11 @@
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 	}
+
+	.portfolio_item_image2 {
+	  max-width: 100%;
+	}
+
 
 	.modal {
     display: none; /* Hidden by default */
@@ -3272,7 +3287,4 @@
 			justify-content: center;
 		}
 
-		.portfolio_item_image {
-
-		}
 	}
