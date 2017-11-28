@@ -2162,17 +2162,6 @@
 				z-index: 1;
 			}
 
-			/* .image.icon:hover:before {
-				-moz-transform: translateZ(1em);
-				-webkit-transform: translateZ(1em);
-				-ms-transform: translateZ(1em);
-				transform: translateZ(1em);
-			}
-
-			.image.icon:hover:after {
-				opacity: 1;
-			} */
-
 	span.image.icon {
 		cursor: default;
 	}
@@ -2474,6 +2463,7 @@
 
 		.feature.left {
 			text-align: left;
+			margin: 2em;
 		}
 
 			.feature.left .image {
@@ -2731,6 +2721,8 @@
 		#main header.major,
 		#main footer.major {
 			background: #ffffff;
+			margin-bottom: inherit;
+			margin-top: 1em;
 		}
 
 /* Wide */
@@ -3161,7 +3153,7 @@
 		justify-content: center;
 		flex-wrap: wrap;
 		float: left;
-		padding-bottom: 2em;
+		padding-bottom: 3em;
 
 	}
 
