@@ -203,6 +203,7 @@
 
 		.container.\37 5\25 {
 			width: 67.5%;
+			padding:2em;
 		}
 
 		.container.\35 0\25 {
@@ -233,6 +234,7 @@
 
 		.container.\37 5\25 {
 			width: 75%;
+			text-align: center;
 		}
 
 		.container.\35 0\25 {
@@ -1998,6 +2000,7 @@
 				width: 100%;
 			}
 
+
 			footer.major:before {
 				top: 10px;
 			}
@@ -2104,7 +2107,6 @@
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -2161,17 +2163,6 @@
 				top: 50%;
 				width: 1em;
 				z-index: 1;
-			}
-
-			.image.icon:hover:before {
-				-moz-transform: translateZ(1em);
-				-webkit-transform: translateZ(1em);
-				-ms-transform: translateZ(1em);
-				transform: translateZ(1em);
-			}
-
-			.image.icon:hover:after {
-				opacity: 1;
 			}
 
 	span.image.icon {
@@ -2482,8 +2473,13 @@
 			}
 
 				.feature.left .image img {
-					right: 0;
-					top: 0;
+					position: sticky;
+					top: 100%;
+					left: 50%;
+					width: auto;
+					height: 3em;
+					margin-top: -75%;
+					margin-left: -60%;
 				}
 
 			.feature.left .content {
@@ -2727,6 +2723,8 @@
 		#main header.major,
 		#main footer.major {
 			background: #ffffff;
+			margin-top: 1em;
+			margin-bottom: 1em;
 		}
 
 /* Wide */
@@ -2749,6 +2747,11 @@
 
 		/* Section/Article */
 
+		    header.major {
+			    margin-bottom: 2em;
+			    padding: 3em 0;
+			}
+
 			header.major p {
 				font-size: 1.25em;
 			}
@@ -2766,6 +2769,19 @@
 				#header p {
 					font-size: 1.5em;
 					line-height: 1.65em;
+				}
+
+		/* Footer */
+
+			#footer {
+				background-image: url("images/bottom-1600.svg");
+				background-size: 1600px 230px;
+				margin-top: -1em;
+				padding: calc(230px + 4em) 0 6em 0;
+			}
+
+				#footer:before {
+					height: calc(230px + 4em);
 				}
 
 	}
@@ -2791,7 +2807,7 @@
 		/* Section/Article */
 
 			header.major {
-				margin-bottom: 4em;
+				margin-bottom: 2em;
 				padding: 3em 0;
 			}
 
@@ -2851,7 +2867,7 @@
 			#footer {
 				background-image: url("images/bottom-1600.svg");
 				background-size: 1600px 230px;
-				margin-top: -100px;
+				margin-top: -1em;
 				padding: calc(230px + 4em) 0 6em 0;
 			}
 
@@ -3053,6 +3069,8 @@
 				padding-right: 1em;
 			}
 
+
+
 		/* List */
 
 			ul.icons li {
@@ -3134,7 +3152,8 @@
 		font-size: 1.2em;
 		line-height: 1.6em;
 		letter-spacing: 0.012em;
-		margin: 0
+		margin: 0;
+
 	}
 
 	.how-we-work {
@@ -3149,12 +3168,15 @@
 	.portfolio-intro {
 	  width: 95%;
 	  margin: auto;
+	  float: left;
 	}
 
 	.portfolio_table {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
+		float: left;
+		padding-bottom: 3em;
 
 	}
 
@@ -3191,7 +3213,6 @@
 	.portfolio_item_image2 {
 	  max-width: 100%;
 	}
-
 
 	.modal {
     display: none; /* Hidden by default */
