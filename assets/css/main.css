@@ -203,6 +203,7 @@
 
 		.container.\37 5\25 {
 			width: 67.5%;
+			padding:2em;
 		}
 
 		.container.\35 0\25 {
@@ -233,6 +234,7 @@
 
 		.container.\37 5\25 {
 			width: 75%;
+			text-align: center;
 		}
 
 		.container.\35 0\25 {
@@ -3067,6 +3069,8 @@
 				padding-right: 1em;
 			}
 
+
+
 		/* List */
 
 			ul.icons li {
@@ -3148,7 +3152,8 @@
 		font-size: 1.2em;
 		line-height: 1.6em;
 		letter-spacing: 0.012em;
-		margin: 0
+		margin: 0;
+
 	}
 
 	.how-we-work {
