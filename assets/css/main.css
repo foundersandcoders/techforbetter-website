@@ -1992,7 +1992,7 @@
 				background: rgba(224, 224, 224, 0.75);
 				content: '';
 				display: block;
-				height: 1px;
+				/* height: 1px; */
 				left: 0;
 				position: absolute;
 				width: 100%;
@@ -2463,7 +2463,6 @@
 
 		.feature.left {
 			text-align: left;
-			margin: 2em;
 		}
 
 			.feature.left .image {
@@ -2721,8 +2720,8 @@
 		#main header.major,
 		#main footer.major {
 			background: #ffffff;
-			margin-bottom: inherit;
 			margin-top: 1em;
+			margin-bottom: 1em;
 		}
 
 /* Wide */
@@ -2745,6 +2744,11 @@
 
 		/* Section/Article */
 
+		    header.major {
+			    margin-bottom: 2em;
+			    padding: 3em 0;
+			}
+			
 			header.major p {
 				font-size: 1.25em;
 			}
@@ -2762,6 +2766,19 @@
 				#header p {
 					font-size: 1.5em;
 					line-height: 1.65em;
+				}
+
+		/* Footer */
+
+			#footer {
+				background-image: url("images/bottom-1600.svg");
+				background-size: 1600px 230px;
+				margin-top: -1em;
+				padding: calc(230px + 4em) 0 6em 0;
+			}
+
+				#footer:before {
+					height: calc(230px + 4em);
 				}
 
 	}
@@ -2787,7 +2804,7 @@
 		/* Section/Article */
 
 			header.major {
-				margin-bottom: 4em;
+				margin-bottom: 2em;
 				padding: 3em 0;
 			}
 
@@ -2847,7 +2864,7 @@
 			#footer {
 				background-image: url("images/bottom-1600.svg");
 				background-size: 1600px 230px;
-				margin-top: -100px;
+				margin-top: -1em;
 				padding: calc(230px + 4em) 0 6em 0;
 			}
 
