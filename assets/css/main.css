@@ -1992,11 +1992,12 @@
 				background: rgba(224, 224, 224, 0.75);
 				content: '';
 				display: block;
-				/* height: 1px; */
+				height: 1px;
 				left: 0;
 				position: absolute;
 				width: 100%;
 			}
+
 
 			footer.major:before {
 				top: 10px;
@@ -2748,7 +2749,7 @@
 			    margin-bottom: 2em;
 			    padding: 3em 0;
 			}
-			
+
 			header.major p {
 				font-size: 1.25em;
 			}
@@ -3207,7 +3208,7 @@
 	.portfolio_item_image2 {
 	  max-width: 100%;
 	}
-	
+
 	.modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
