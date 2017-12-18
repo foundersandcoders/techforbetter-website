@@ -193,6 +193,7 @@
 
 		.video {
 			max-width: 400px;
+			max-height: 225px;
 		}
 
 		.container.\31 25\25 {
@@ -224,6 +225,7 @@
 
 		.video {
 			max-width: 250px;
+			max-height: 140.625px;
 		}
 
 		.container.\31 25\25 {
@@ -2843,7 +2845,7 @@
 				background-attachment: scroll,							scroll,							scroll;
 				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("https://foundersandcoders.com/assets/academy.jpg");
 				background-size: 1600px 230px,					auto,							cover;
-				padding: 6em 0 12em 0;
+				padding: 4em 0 12em 0;
 			}
 
 				#header:before {
@@ -3322,5 +3324,6 @@
 }
 
 .video-center{
+	padding-top: 50px;
 	text-align: center;
 }
