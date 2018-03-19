@@ -2466,6 +2466,15 @@
 				margin: 0;
 			}
 
+			.feature .spread {
+				display: inline-block;
+				padding: .5em;
+				padding-left: 4em;
+				
+				vertical-align: middle;
+				width: 90%;
+			}
+
 		.feature.left {
 			text-align: left;
 		}
