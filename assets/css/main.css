@@ -2316,6 +2316,7 @@
 
 /* Button */
 
+	
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -2344,6 +2345,12 @@
 		text-decoration: none;
 		text-transform: uppercase;
 	}
+
+	.help {
+		line-height: 1.25em;
+		padding: 1em 1.5em;
+	}	
+		
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
