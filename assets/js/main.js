@@ -73,7 +73,7 @@ function imageModal(image) {
 		case 'courtauld':
 			modalImg.src = 'images/portfolio/courtauld.png';
 			captionHeader.innerText = 'Courtauld Institute of Art Volunteer App';
-			captionParagraph.innerText = "This app was built to enhance the volunteer experience at the Courtauld Institute of Art. For the past year, the Courtauld Institute has relied on volunteers to catalogue and digitize a huge collection of photographs and art for their Courtauld Connects initiative. They are preparing to more than triple the current number of volunteers in order to accelerate the multi-year project."
+			captionParagraph.innerText = "This app was built to enhance the volunteer experience at the Courtauld Institute of Art. For the past year, the Courtauld Institute has relied on volunteers to catalogue and digitise a huge collection of photographs and art for their Courtauld Connects initiative. They are preparing to more than triple the current number of volunteers in order to accelerate the multi-year project."
 			break;
 		case 'grow':
 			modalImg.src = 'images/portfolio/grow.png';
@@ -83,7 +83,7 @@ function imageModal(image) {
 		case 'little-window':
 			modalImg.src = 'images/portfolio/littlewindow.png';
 			captionHeader.innerText = 'Little Window';
-			captionParagraph.innerText = "The Little Window application is a chatbot to be featured on all Chayn websites, which will quickly direct users to Chayn’s relevant internal or external resources"
+			captionParagraph.innerText = "The Little Window application is a chatbot to be featured on all Chayn websites. The chatbot  will help women living in abusive circumstances by guiding them to relevant information depending on their need and location."
 			break;
 
 	}
