@@ -69,17 +69,23 @@ function imageModal(image) {
 			modalImg.src = 'images/portfolio/echo.png';
 			captionHeader.innerText = 'Echo';
 			captionParagraph.innerText = "Echo is an app for storing and revisiting good memories. This app allows children to store memories in various mediums (including, photos, voice recordings and text). The memories are displayed visually through interconnecting dots, allowing the user to revisit them with ease."
-			break;
-		case 'data-power':
-			modalImg.src = 'images/portfolio/data-power.png';
-			captionHeader.innerText = 'Data Power';
-			captionParagraph.innerText = "DataPower helps local business owners to retrieve information about the popularity of their different offers, and whether this changes according to demographic groups. This enables them to tailor their services to the needs and preferences of their local community."
+			break;		
+		case 'courtauld':
+			modalImg.src = 'images/portfolio/courtauld.png';
+			captionHeader.innerText = 'Courtauld Institute of Art Volunteer App';
+			captionParagraph.innerText = "This app was built to enhance the volunteer experience at the Courtauld Institute of Art. For the past year, the Courtauld Institute has relied on volunteers to catalogue and digitise a huge collection of photographs and art for their Courtauld Connects initiative. They are preparing to more than triple the current number of volunteers in order to accelerate the multi-year project."
 			break;
 		case 'grow':
 			modalImg.src = 'images/portfolio/grow.png';
 			captionHeader.innerText = 'Grow';
 			captionParagraph.innerText = "Grow is a collaboration with CAHMs (Child and Adolescent Mental Health Services). They work with young people aged 12-18 who benefit from emotional, behavioural, and mental health support. CAHMs identified young people were struggling to express issues and record progress with their mentors. Grow solved this by allowing young people to set manageable goals and complete them with ease."
 			break;
+		case 'little-window':
+			modalImg.src = 'images/portfolio/littlewindow.png';
+			captionHeader.innerText = 'Little Window';
+			captionParagraph.innerText = "The Little Window application is a chatbot to be featured on all Chayn websites. The chatbot  will help women living in abusive circumstances by guiding them to relevant information depending on their need and location."
+			break;
+
 	}
 }
 
