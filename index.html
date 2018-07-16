@@ -11,6 +11,7 @@
 	<meta property="og:image" content="images/social-preview.png">
 	<meta property="og:url" content="http://pitchday.foundersandcoders.com/">
 	<meta name="twitter:card" content="summary_large_image">
+	<link rel="stylesheet" href="assets/css/reset.css"
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="shortcut icon" href="images/favicon.ico">
 </head>
@@ -119,42 +120,18 @@
 	<section>
 		<h2>People We've Worked With</h2>
 		<div>
-			<div>
-				<img src='images/portfolio/anna_freud.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/birkbeck.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/camden.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/cast.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/hackney_learning_trust.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/nhs.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/on_purpose.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/queen_mary_uni.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/roundabout.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/royal_holloway.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/safe_lives.png' />
-			</div>
-			<div>
-				<img src='images/portfolio/safer_together.png' />
-			</div>
+			<div><img src='images/portfolio/anna_freud.png' /></div>
+			<div><img src='images/portfolio/birkbeck.png' /></div>
+			<div><img src='images/portfolio/camden.png' /></div>
+			<div><img src='images/portfolio/cast.png' /></div>
+			<div><img src='images/portfolio/hackney_learning_trust.png' /></div>
+			<div><img src='images/portfolio/nhs.png' /></div>
+			<div><img src='images/portfolio/on_purpose.png' /></div>
+			<div><img src='images/portfolio/queen_mary_uni.png' /></div>
+			<div><img src='images/portfolio/roundabout.png' /></div>
+			<div><img src='images/portfolio/royal_holloway.png' /></div>
+			<div><img src='images/portfolio/safe_lives.png' /></div>
+			<div><img src='images/portfolio/safer_together.png' /></div>
 		</div>
 	</section>
 
@@ -195,7 +172,7 @@
 			<div>
 				<input type="submit" value="Send Message">
 			</div>
-			<!-- REDIRCT ROUTE HERE -->
+			<!-- REDIRECT ROUTE HERE -->
 			<input type="hidden" name="_next" value="/" />
 		</form>
 		<ul>
@@ -223,7 +200,8 @@
 	<script src="assets/js/main.js"></script>
 
 	<script>
-	$(document).ready(function() {
+	// makes nice scrolling movement when navigating down the webpage
+$(document).ready(function() {
   $("a").on("click", function(event) {
     if (this.hash !== "") {
       event.preventDefault();
