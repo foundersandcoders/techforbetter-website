@@ -155,6 +155,16 @@ body {
 
 /* Containers */
 
+.qa-container {
+  background: white;
+  margin: auto;
+  text-align: center;
+}
+
+.qa-container h3 {
+  margin-top: 15px;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
