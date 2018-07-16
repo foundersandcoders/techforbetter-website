@@ -1,4 +1,18 @@
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+/* HEADER STYLING */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../images/header-image.jpg);
+  width: 100vw;
+}
+
+#fac_lightbulb {
 }
