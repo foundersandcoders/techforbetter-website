@@ -1,29 +1,19 @@
-body {
+body,
+main {
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Source Sans Pro", sans-serif;
+  width: 100vw;
 }
 
 /* HEADER STYLING */
 
 header {
   width: 100vw;
-  height: 80vh;
   color: white;
   font-size: 16px;
-}
-
-header h1 {
-  font-weight: 700;
-  font-size: 2.5em;
-}
-
-header p {
-  font-weight: 600;
-  font-size: 1.5em;
-  color: #d6d9dc;
 }
 
 #header-background {
@@ -33,12 +23,65 @@ header p {
   background: linear-gradient(rgba(68, 88, 101, 0.8), rgba(68, 88, 101, 0.8)),
     url("https://foundersandcoders.com/assets/academy.jpg");
   background-repeat: no-repeat;
-  height: 105vh;
-  width: 100%;
+  background-position: center;
   background-size: cover;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+  height: 90vh;
+  width: 100%;
+  padding-top: 15vh;
 }
 
 #fac_lightbulb {
-  height: 100px;
+  height: 120px;
   width: auto;
+}
+
+header > * {
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  margin: 32px 0;
+}
+
+header p {
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #d6d9dc;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.apply-button {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 16px 32px;
+  border-radius: 8px;
+  color: #00bfae;
+  margin-top: 0;
+}
+
+/* END OF HEADER STYLING */
+
+/* MAIN STYLING */
+
+main {
+  width: 100vw;
+}
+
+main > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+}
+
+.main-section {
+  margin-top: 8vh;
+}
+
+#faq {
 }
