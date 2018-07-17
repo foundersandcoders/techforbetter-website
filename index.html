@@ -29,7 +29,7 @@
 		<br>
 		<ul class="actions">
 			<li>
-				<a href="#main" class="button help">Apply</a>
+				<a href="#contact" class="button help">Apply</a>
 			</li>
 		</ul>
 	</div>
@@ -66,7 +66,12 @@
 				<h3>How do you decide which product to work on?</h3>
 				<p>We are primarily looking for a committed product owner and an interesting problem to solve with the potential to make
 					a significant positive impact on its users.</p>
-				<h3>How do I apply?</h3>
+				<h3 style="margin-bottom:16px">How do I apply?</h3>
+				<ul class="actions">
+					<li>
+						<a href="#contact" class="button help faq">Apply</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 		<header class="major container 75%">
@@ -301,24 +306,25 @@
 		<script src="assets/js/main.js"></script>
 
 		<script>
-			$(document).ready(function () {
-				$("a").on('click', function (event) {
+		$(document).ready(function() {
+  $("a").on("click", function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
 
-					if (this.hash !== "") {
-						event.preventDefault();
-
-						var hash = this.hash;
-						$('html, body').animate({
-							scrollTop: $(hash).offset().top
-						}, 800, function () {
-
-							window.location.hash = hash;
-						});
-
-					}
-				});
-			});
-		</script>
+      var hash = this.hash;
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
+    }
+  });
+});
+</script>
 </body>
 
 </html>
