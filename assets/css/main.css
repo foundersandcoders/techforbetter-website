@@ -3408,7 +3408,7 @@ input[type="button"].small,
 .portfolio-intro {
   width: 95%;
   margin: auto;
-  float: left;
+  /* float: left; */
 }
 
 .portfolio_table {
@@ -3416,7 +3416,7 @@ input[type="button"].small,
   justify-content: center;
   flex-wrap: wrap;
   float: left;
-  padding-bottom: 3em;
+  margin-bottom: 5em;
 }
 
 .portfolio_item_container {
