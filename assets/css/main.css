@@ -2533,7 +2533,10 @@ input[type="button"],
   border: 0;
   color: #ffffff;
   cursor: pointer;
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
   font-size: 0.9em;
   font-weight: 700;
   letter-spacing: 0.125em;
