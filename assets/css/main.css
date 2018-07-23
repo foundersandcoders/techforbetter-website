@@ -68,7 +68,8 @@ header p {
   margin-bottom: 32px;
 }
 
-.apply-button {
+.apply-button,
+.contact-button {
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 600;
