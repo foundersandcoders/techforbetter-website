@@ -191,9 +191,6 @@ main > section {
 
 .partners-item {
   place-self: center;
-}
-
-.partners-item {
   width: calc((65vw / 4) - 16px);
 }
 
