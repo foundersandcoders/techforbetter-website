@@ -80,6 +80,7 @@ header .contact-button {
   background-color: #ffffff;
   color: #409ea9;
   margin-top: 8px;
+  margin-bottom: 24px;
 }
 
 /* END OF HEADER STYLING */
@@ -135,7 +136,7 @@ main > section {
 
 #faq p,
 #faq button {
-  margin-top: 8px;
+  margin-top: 16px;
   margin-bottom: 0;
   font-size: 1.1rem;
 }
@@ -162,7 +163,6 @@ main #faq .contact-button {
   border-radius: 5px;
   background-color: #409ea9;
   color: #ffffff;
-  margin-top: 8px;
 }
 
 .grid {
@@ -171,9 +171,6 @@ main #faq .contact-button {
   margin-top: 16px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-}
-
-#portfolio {
 }
 
 #modal {
