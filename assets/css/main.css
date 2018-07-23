@@ -91,7 +91,7 @@ main {
   color: #5b5b5b;
 }
 
-main > * {
+main > section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -163,6 +163,27 @@ main #faq .contact-button {
   background-color: #409ea9;
   color: #ffffff;
   margin-top: 8px;
+}
+
+#portfolio {
+}
+
+#modal {
+  display: none;
+}
+
+#portfolio-grid {
+  width: 60vw;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.portfolio-item > img {
+  width: calc(20vw - 16px);
 }
 
 /* END OF MAIN STYLING */
