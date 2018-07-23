@@ -68,8 +68,8 @@ header p {
   margin-bottom: 32px;
 }
 
-.apply-button,
-.contact-button {
+header .apply-button,
+header .contact-button {
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 600;
@@ -78,7 +78,7 @@ header p {
   width: 16rem;
   border-radius: 5px;
   background-color: #ffffff;
-  color: #00bfae;
+  color: #409ea9;
   margin-top: 8px;
 }
 
@@ -106,5 +106,19 @@ main > * {
 
 #faq > p,
 #faq button {
+  margin-top: 8px;
+}
+
+main .apply-button,
+main .contact-button {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 16px 0;
+  width: 16rem;
+  border-radius: 5px;
+  background-color: #409ea9;
+  color: #ffffff;
   margin-top: 8px;
 }
