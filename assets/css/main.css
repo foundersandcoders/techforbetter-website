@@ -99,6 +99,23 @@ main > * {
   width: 60%;
 }
 
+.border {
+  border-style: solid none;
+  border-width: thin;
+  border-color: #e8e8e8;
+  padding: 12px 0;
+  margin: 16px 0;
+}
+
+.section-header {
+  border-style: solid none;
+  border-width: thin;
+  border-color: #e8e8e8;
+  padding: 24px 16px;
+  margin: 0;
+  width: 45vw;
+}
+
 #faq > h3 {
   margin-top: 32px;
   margin-bottom: 0;
@@ -122,3 +139,9 @@ main .contact-button {
   color: #ffffff;
   margin-top: 8px;
 }
+
+/* END OF MAIN STYLING */
+
+/* FOOTER STYLING */
+
+/* END OF FOOTER STYLING */
