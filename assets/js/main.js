@@ -49,31 +49,67 @@ function imageModal(image) {
   switch (image.id) {
     case "all-about-me":
       modalImg.src = "images/portfolio/all-about-me.png";
-      captionHeader.innerText = "All About Me";
+      var title = document.createElement("a");
+      title.setAttribute("href", "");
+      title.setAttribute("target", "_blank");
+      title.innerText = "All About Me";
+      while (captionHeader.firstChild) {
+        captionHeader.removeChild(captionHeader.firstChild);
+      }
+      captionHeader.appendChild(title);
+      // captionHeader.innerText = "All About Me";
       captionParagraph.innerText =
         "All About Me is an app to help young people at The Anna Freud Centre easily transition into adult care.\nPatients at The Anna Freud Centre were tired of being asked the same questions every time their clinician changed or they went to a new centre. All About Me allows patients to answer a questionnaire online in their own time, save their answers, and when they're ready they can send their form to their clinician.";
       break;
     case "breathe-with-me":
       modalImg.src = "images/portfolio/breathe-with-me.png";
-      captionHeader.innerText = "Breathe With Me";
+      var title = document.createElement("a");
+      title.setAttribute("href", "https://breathewithme.co.uk/");
+      title.setAttribute("target", "_blank");
+      title.innerText = "Breathe With Me";
+      while (captionHeader.firstChild) {
+        captionHeader.removeChild(captionHeader.firstChild);
+      }
+      captionHeader.appendChild(title); // captionHeader.innerText = "Breathe With Me";
       captionParagraph.innerText =
         "Breathe with Me was developed for CAMHS (Child and Adolescent Mental Health Services). As many as 1 in 6 young people will experience an anxiety problem at some point in their life. The aim of Breathe with Me is to help to reduce anxiety and promote wellbeing through supported breathing exercises.";
       break;
     case "echo":
       modalImg.src = "images/portfolio/echo.png";
-      captionHeader.innerText = "Echo";
+      var title = document.createElement("a");
+      title.setAttribute("href", "");
+      title.setAttribute("target", "_blank");
+      title.innerText = "Echo";
+      while (captionHeader.firstChild) {
+        captionHeader.removeChild(captionHeader.firstChild);
+      }
+      captionHeader.appendChild(title); // captionHeader.innerText = "Echo";
       captionParagraph.innerText =
         "Echo is an app for storing and revisiting good memories. This app allows children to store memories in various mediums (including, photos, voice recordings and text). The memories are displayed visually through interconnecting dots, allowing the user to revisit them with ease.";
       break;
     case "courtauld":
       modalImg.src = "images/portfolio/courtauld.png";
-      captionHeader.innerText = "Courtauld Institute of Art Volunteer App";
+      var title = document.createElement("a");
+      title.setAttribute("href", "");
+      title.setAttribute("target", "_blank");
+      title.innerText = "Courtauld Institute of Art Volunteer App";
+      while (captionHeader.firstChild) {
+        captionHeader.removeChild(captionHeader.firstChild);
+      }
+      captionHeader.appendChild(title); // captionHeader.innerText = "Courtauld Institute of Art Volunteer App";
       captionParagraph.innerText =
         "This app was built to enhance the volunteer experience at the Courtauld Institute of Art. For the past year, the Courtauld Institute has relied on volunteers to catalogue and digitise a huge collection of photographs and art for their Courtauld Connects initiative. They are preparing to more than triple the current number of volunteers in order to accelerate the multi-year project.";
       break;
     case "grow":
       modalImg.src = "images/portfolio/grow.png";
-      captionHeader.innerText = "Grow";
+      var title = document.createElement("a");
+      title.setAttribute("href", "https://welcome-in.herokuapp.com/");
+      title.setAttribute("target", "_blank");
+      title.innerText = "Grow";
+      while (captionHeader.firstChild) {
+        captionHeader.removeChild(captionHeader.firstChild);
+      }
+      captionHeader.appendChild(title); // captionHeader.innerText = "Grow";
       captionParagraph.innerText =
         "Grow is a collaboration with CAHMs (Child and Adolescent Mental Health Services). They work with young people aged 12-18 who benefit from emotional, behavioural, and mental health support. CAHMs identified young people were struggling to express issues and record progress with their mentors. Grow solved this by allowing young people to set manageable goals and complete them with ease.";
       break;
@@ -83,6 +119,9 @@ function imageModal(image) {
       title.setAttribute("href", "https://chayn.co/");
       title.setAttribute("target", "_blank");
       title.innerText = "Little Window";
+      while (captionHeader.firstChild) {
+        captionHeader.removeChild(captionHeader.firstChild);
+      }
       captionHeader.appendChild(title);
       // captionHeader.innerText = "Little Window";
       captionParagraph.innerText =
