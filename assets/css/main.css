@@ -142,11 +142,13 @@ main > * {
 
 #faq a:link,
 #faq a:visited {
+  border-bottom: 1px dotted #409ea9;
+  text-decoration: none;
   color: #409ea9;
 }
 
 #faq a:hover {
-  text-decoration: none;
+  border-bottom: none;
 }
 
 main #faq .apply-button,
