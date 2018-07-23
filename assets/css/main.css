@@ -140,6 +140,15 @@ main > * {
   font-size: 1.1rem;
 }
 
+#faq a:link,
+#faq a:visited {
+  color: #409ea9;
+}
+
+#faq a:hover {
+  text-decoration: none;
+}
+
 main #faq .apply-button,
 main #faq .contact-button {
   font-size: 1rem;
