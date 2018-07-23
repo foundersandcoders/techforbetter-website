@@ -14,6 +14,18 @@ h3 {
   text-transform: uppercase;
 }
 
+.button {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 16px 0;
+  width: 16rem;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
 /* HEADER STYLING */
 
 header {
@@ -68,19 +80,10 @@ header p {
   margin-bottom: 32px;
 }
 
-header .apply-button,
-header .contact-button {
-  font-size: 1rem;
-  line-height: 1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding: 16px 0;
-  width: 16rem;
-  border-radius: 5px;
+header button,
+header button {
   background-color: #ffffff;
   color: #409ea9;
-  margin-top: 8px;
-  margin-bottom: 24px;
 }
 
 /* END OF HEADER STYLING */
@@ -138,7 +141,10 @@ main > section {
 #faq button {
   margin-top: 16px;
   margin-bottom: 0;
-  font-size: 1.1rem;
+}
+
+#faq p {
+  font-size: 1rem;
 }
 
 #faq p a:link,
@@ -152,15 +158,7 @@ main > section {
   border-bottom: none;
 }
 
-main #faq .apply-button,
-main #faq .contact-button {
-  font-size: 1rem;
-  line-height: 1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding: 16px 0;
-  width: 16rem;
-  border-radius: 5px;
+#faq button {
   background-color: #409ea9;
   color: #ffffff;
 }
