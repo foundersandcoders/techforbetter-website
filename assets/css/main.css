@@ -193,7 +193,7 @@ main > section {
   place-self: center;
 }
 
-.partners-item > img {
+.partners-item {
   width: calc((65vw / 4) - 16px);
 }
 
