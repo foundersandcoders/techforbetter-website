@@ -50,7 +50,7 @@ function imageModal(image) {
     case "all-about-me":
       modalImg.src = "images/portfolio/all-about-me.png";
       var title = document.createElement("a");
-      title.setAttribute("href", "");
+      title.setAttribute("href", "https://allaboutme-af.herokuapp.com/");
       title.setAttribute("target", "_blank");
       title.innerText = "All About Me";
       while (captionHeader.firstChild) {
@@ -77,7 +77,7 @@ function imageModal(image) {
     case "echo":
       modalImg.src = "images/portfolio/echo.png";
       var title = document.createElement("a");
-      title.setAttribute("href", "");
+      title.setAttribute("href", "https://echo-af.herokuapp.com/");
       title.setAttribute("target", "_blank");
       title.innerText = "Echo";
       while (captionHeader.firstChild) {
@@ -89,14 +89,15 @@ function imageModal(image) {
       break;
     case "courtauld":
       modalImg.src = "images/portfolio/courtauld.png";
-      var title = document.createElement("a");
-      title.setAttribute("href", "");
-      title.setAttribute("target", "_blank");
-      title.innerText = "Courtauld Institute of Art Volunteer App";
-      while (captionHeader.firstChild) {
-        captionHeader.removeChild(captionHeader.firstChild);
-      }
-      captionHeader.appendChild(title); // captionHeader.innerText = "Courtauld Institute of Art Volunteer App";
+      // var title = document.createElement("a");
+      // title.setAttribute("href", "");
+      // title.setAttribute("target", "_blank");
+      // title.innerText = "Courtauld Institute of Art Volunteer App";
+      // while (captionHeader.firstChild) {
+      //   captionHeader.removeChild(captionHeader.firstChild);
+      // }
+      // captionHeader.appendChild(title);
+      captionHeader.innerText = "Courtauld Institute of Art Volunteer App";
       captionParagraph.innerText =
         "This app was built to enhance the volunteer experience at the Courtauld Institute of Art. For the past year, the Courtauld Institute has relied on volunteers to catalogue and digitise a huge collection of photographs and art for their Courtauld Connects initiative. They are preparing to more than triple the current number of volunteers in order to accelerate the multi-year project.";
       break;
