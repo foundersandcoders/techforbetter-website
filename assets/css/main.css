@@ -56,6 +56,7 @@ header {
 
 header > * {
   text-align: center;
+  color: #ffffff;
 }
 
 header h1 {
@@ -67,7 +68,6 @@ header h1 {
 header h2 {
   font-weight: 600;
   font-size: 2em;
-  color: #ffffff;
   margin-top: 0;
   margin-bottom: 8px;
 }
@@ -75,7 +75,6 @@ header h2 {
 header p {
   font-weight: 400;
   font-size: 1.5em;
-  color: #ffffff;
   margin-top: 0;
   margin-bottom: 32px;
 }
@@ -108,18 +107,19 @@ main > section {
   width: 50vw;
 }
 
-.border {
+.border,
+.section-header {
   border-style: solid none;
   border-width: thin;
   border-color: #e8e8e8;
+}
+
+.border {
   padding: 12px 0;
   margin: 16px 0;
 }
 
 .section-header {
-  border-style: solid none;
-  border-width: thin;
-  border-color: #e8e8e8;
   padding: 40px 16px;
   margin: 0;
   width: 50vw;
