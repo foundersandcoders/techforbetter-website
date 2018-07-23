@@ -100,6 +100,10 @@ main > * {
   width: 60%;
 }
 
+#faq {
+  width: 50vw;
+}
+
 .border {
   border-style: solid none;
   border-width: thin;
@@ -118,11 +122,13 @@ main > * {
   text-align: center;
 }
 
-#faq {
-  width: 50vw;
+#faq .border + p {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
 }
 
 #faq h3 {
+  font-size: 1.3rem;
   margin-top: 32px;
   margin-bottom: 0;
 }
@@ -130,10 +136,12 @@ main > * {
 #faq p,
 #faq button {
   margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 1.1rem;
 }
 
-main .apply-button,
-main .contact-button {
+main #faq .apply-button,
+main #faq .contact-button {
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 600;
