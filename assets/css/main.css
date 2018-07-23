@@ -165,6 +165,14 @@ main #faq .contact-button {
   margin-top: 8px;
 }
 
+.grid {
+  display: grid;
+  width: 65vw;
+  margin-top: 16px;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
 #portfolio {
 }
 
@@ -172,18 +180,26 @@ main #faq .contact-button {
   display: none;
 }
 
-#portfolio-grid {
-  width: 60vw;
-  margin-top: 16px;
-  display: grid;
+.portfolio-grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
 }
 
 .portfolio-item > img {
-  width: calc(20vw - 16px);
+  width: calc((65vw / 3) - 16px);
+}
+
+.partners-grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-tempalte-rows: repeat(3, 1fr);
+}
+
+.partners-item {
+  place-self: center;
+}
+
+.partners-item > img {
+  width: calc((65vw / 4) - 16px);
 }
 
 /* END OF MAIN STYLING */
