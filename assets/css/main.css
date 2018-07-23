@@ -8,6 +8,11 @@ main {
   width: 100vw;
 }
 
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
 /* HEADER STYLING */
 
 header {
@@ -46,21 +51,33 @@ header h1 {
   margin: 32px 0;
 }
 
-header p {
+header h2 {
   font-weight: 600;
+  font-size: 2em;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-weight: 400;
   font-size: 1.5em;
-  color: #d6d9dc;
+  color: #ffffff;
   margin-top: 0;
   margin-bottom: 32px;
 }
 
 .apply-button {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  line-height: 1rem;
   font-weight: 600;
-  padding: 16px 32px;
-  border-radius: 8px;
+  text-transform: uppercase;
+  padding: 16px 0;
+  width: 16rem;
+  border-radius: 5px;
+  background-color: #ffffff;
   color: #00bfae;
-  margin-top: 0;
+  margin-top: 8px;
 }
 
 /* END OF HEADER STYLING */
