@@ -12,6 +12,7 @@ h1,
 h2,
 h3 {
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .button {
@@ -28,6 +29,25 @@ h3 {
 
 .button:focus {
   outline-color: #409ea9;
+}
+
+#body {
+  width: 100vw;
+  height: 0;
+  position: sticky;
+  top: 0;
+}
+
+.body {
+  width: 50%;
+  height: 100vh;
+}
+
+#body-left {
+  border-right: solid;
+  border-width: thin;
+  border-color: #e8e8e8;
+  z-index: -1;
 }
 
 /* HEADER STYLING */
@@ -104,7 +124,10 @@ main > section {
   align-items: center;
   text-align: center;
   margin-top: 8vh;
+  padding-bottom: 32px;
   width: 60%;
+  background-color: white;
+  z-index: 1;
 }
 
 #faq {
@@ -120,7 +143,7 @@ main > section {
 
 .border {
   padding: 12px 0;
-  margin: 16px 0;
+  margin-bottom: 16px;
 }
 
 .section-header {
@@ -144,7 +167,7 @@ main > section {
 #faq p,
 #faq button {
   margin-top: 16px;
-  margin-bottom: 0;
+  margin-bottom: 8px;
 }
 
 #faq p {
