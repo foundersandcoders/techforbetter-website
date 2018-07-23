@@ -26,6 +26,10 @@ h3 {
   margin-bottom: 24px;
 }
 
+.button:focus {
+  outline-color: #409ea9;
+}
+
 /* HEADER STYLING */
 
 header {
