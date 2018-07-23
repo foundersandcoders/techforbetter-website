@@ -140,14 +140,14 @@ main > * {
   font-size: 1.1rem;
 }
 
-#faq a:link,
-#faq a:visited {
+#faq p a:link,
+#faq p a:visited {
   border-bottom: 1px dotted #409ea9;
   text-decoration: none;
   color: #409ea9;
 }
 
-#faq a:hover {
+#faq p a:hover {
   border-bottom: none;
 }
 
