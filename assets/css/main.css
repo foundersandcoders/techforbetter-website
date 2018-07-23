@@ -115,6 +115,7 @@ main > * {
   padding: 24px 16px;
   margin: 0;
   width: 45vw;
+  text-align: center;
 }
 
 #faq > h3 {
