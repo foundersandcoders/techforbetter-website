@@ -114,16 +114,20 @@ main > * {
   border-color: #e8e8e8;
   padding: 24px 16px;
   margin: 0;
-  width: 45vw;
+  width: 50vw;
   text-align: center;
 }
 
-#faq > h3 {
+#faq {
+  width: 50vw;
+}
+
+#faq h3 {
   margin-top: 32px;
   margin-bottom: 0;
 }
 
-#faq > p,
+#faq p,
 #faq button {
   margin-top: 8px;
 }
