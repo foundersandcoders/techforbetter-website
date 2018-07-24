@@ -67,6 +67,7 @@ header {
     url("https://foundersandcoders.com/assets/academy.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
   height: 90vh;
