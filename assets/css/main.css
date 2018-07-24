@@ -249,4 +249,19 @@ main > section {
 
 /* FOOTER STYLING */
 
+footer {
+  background-color: #409ea9;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  padding-top: 32px;
+}
+
+footer .border,
+footer .section-header {
+  color: #ffffff;
+}
+
 /* END OF FOOTER STYLING */
