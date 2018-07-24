@@ -151,7 +151,7 @@ main > section {
 
 .border {
   padding: 12px 0;
-  margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 .section-header {
@@ -163,7 +163,7 @@ main > section {
 
 #faq .border + p {
   font-size: 1.4rem;
-  margin-bottom: 16px;
+  margin-top: 40px;
 }
 
 #faq h3 {
