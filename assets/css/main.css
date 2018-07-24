@@ -26,8 +26,9 @@ h3 {
   padding: 16px 0;
   width: 16rem;
   border-radius: 5px;
-  margin-top: 8px;
-  margin-bottom: 24px;
+  /* margin-top: 8px; */
+  /* margin-bottom: 24px; */
+  cursor: pointer;
 }
 
 .button:focus {
@@ -59,7 +60,7 @@ h3 {
 header {
   width: 100vw;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #header-background {
@@ -75,7 +76,7 @@ header {
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
   height: 90vh;
   width: 100%;
-  padding-top: 15vh;
+  padding-top: 10vh;
 }
 
 #fac_lightbulb {
@@ -105,13 +106,14 @@ header p {
   font-weight: 400;
   font-size: 1.5em;
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 header button,
 header button {
   background-color: #e8e8e8;
   color: #409ea9;
+  margin-bottom: 32px;
 }
 
 /* END OF HEADER STYLING */
@@ -166,17 +168,12 @@ main > section {
 
 #faq h3 {
   font-size: 1.3rem;
-  margin-top: 32px;
-  margin-bottom: 0;
-}
-
-#faq p,
-#faq button {
-  margin-top: 16px;
-  margin-bottom: 8px;
+  margin-top: 40px;
+  margin-bottom: 16px;
 }
 
 #faq p {
+  margin: 0;
   font-size: 1rem;
 }
 
