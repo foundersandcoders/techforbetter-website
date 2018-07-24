@@ -253,13 +253,11 @@ main > section {
 #footer {
   width: 100vw;
   height: 0;
-  position: sticky;
-  top: 0;
 }
 
 .footer {
   width: 50%;
-  height: 64px;
+  height: 192px;
   box-sizing: border-box;
 }
 
@@ -271,6 +269,7 @@ main > section {
 }
 
 footer {
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 50% 15%);
   background-color: #409ea9;
   width: 100vw;
   display: flex;
@@ -288,7 +287,7 @@ footer {
 }
 
 footer .border {
-  margin-top: 64px;
+  margin-top: 192px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
