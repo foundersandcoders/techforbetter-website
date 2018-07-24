@@ -327,7 +327,11 @@ form {
 }
 
 .form-input:focus {
-  outline-color: #e8e8e8;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-offset: 4px;
+  outline-color: #409ea9;
+  background-color: rgba(232, 232, 232, 0.1);
 }
 
 .form-input-top-line {
