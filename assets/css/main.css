@@ -1,3 +1,5 @@
+/* is font-family being applied everywhere? */
+
 body,
 main {
   margin: 0;
@@ -16,6 +18,7 @@ h3 {
 }
 
 .button {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 0.9rem;
   line-height: 1rem;
   font-weight: 600;
@@ -351,5 +354,11 @@ form {
 ::placeholder {
   color: #8cc5cb;
 } /* can't combine with above - doesn't work for some reason */
+
+footer .button {
+  margin-top: 32px;
+  color: #409ea9;
+  background-color: #e8e8e8;
+}
 
 /* END OF FOOTER STYLING */
