@@ -249,6 +249,26 @@ main > section {
 
 /* FOOTER STYLING */
 
+#footer {
+  width: 100vw;
+  height: 0;
+  position: sticky;
+  top: 0;
+}
+
+.footer {
+  width: 50%;
+  height: 64px;
+  box-sizing: border-box;
+}
+
+#footer-left {
+  border-right: solid;
+  border-width: thin;
+  border-color: #e8e8e8;
+  z-index: -1;
+}
+
 footer {
   background-color: #409ea9;
   width: 100vw;
@@ -256,11 +276,16 @@ footer {
   flex-direction: column;
   align-items: center;
   margin-top: 32px;
-  padding-top: 32px;
+  z-index: 1;
+}
+
+footer .border {
+  margin-top: 64px;
 }
 
 footer .border,
 footer .section-header {
+  border-bottom: none;
   color: #ffffff;
 }
 
