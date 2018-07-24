@@ -82,7 +82,7 @@ header {
 
 header > * {
   text-align: center;
-  color: #ffffff;
+  color: #e8e8e8;
 }
 
 header h1 {
@@ -107,7 +107,7 @@ header p {
 
 header button,
 header button {
-  background-color: #ffffff;
+  background-color: #e8e8e8;
   color: #409ea9;
 }
 
@@ -141,7 +141,7 @@ main > section {
   border-style: solid none;
   border-width: thin;
   border-color: #e8e8e8;
-  width: 65vw;
+  width: 55vw;
 }
 
 .border {
@@ -190,7 +190,7 @@ main > section {
 
 #faq button {
   background-color: #409ea9;
-  color: #ffffff;
+  color: #e8e8e8;
 }
 
 .grid {
@@ -280,7 +280,7 @@ footer {
 }
 
 #contact {
-  width: 65vw;
+  width: 55vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,7 +295,7 @@ footer .border {
 footer .border,
 footer .section-header {
   border-bottom: none;
-  color: #ffffff;
+  color: #e8e8e8;
 }
 
 form {
@@ -315,8 +315,8 @@ form {
 
 .form-input {
   background-color: #409ea9;
-  color: #ffffff;
-  border-color: #ffffff;
+  color: #e8e8e8;
+  border-color: #e8e8e8;
   box-shadow: none;
   border-radius: 8px;
   border-width: 1px;
@@ -328,7 +328,7 @@ form {
 }
 
 .form-input:focus {
-  outline-color: #ffffff;
+  outline-color: #e8e8e8;
 }
 
 .form-input-top-line {
