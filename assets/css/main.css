@@ -141,6 +141,7 @@ main > section {
   border-style: solid none;
   border-width: thin;
   border-color: #e8e8e8;
+  width: 65vw;
 }
 
 .border {
@@ -151,8 +152,8 @@ main > section {
 .section-header {
   padding: 40px 16px;
   margin: 0;
-  width: 50vw;
   text-align: center;
+  box-sizing: border-box;
 }
 
 #faq .border + p {
@@ -279,8 +280,17 @@ footer {
   z-index: 1;
 }
 
+#contact {
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer .border {
   margin-top: 64px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 footer .border,
@@ -288,5 +298,59 @@ footer .section-header {
   border-bottom: none;
   color: #ffffff;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  width: 100%;
+}
+
+.form-line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-contents: center;
+}
+
+.form-input {
+  background-color: #409ea9;
+  color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  margin: 8px;
+  padding: 16px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-input:focus {
+  outline-color: #ffffff;
+}
+
+.form-input-top-line {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+#message {
+  width: 100%;
+}
+
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+  color: #8cc5cb;
+} /* may not be necessary anymore */
+
+::placeholder {
+  color: #8cc5cb;
+} /* can't combine with above - doesn't work for some reason */
 
 /* END OF FOOTER STYLING */
