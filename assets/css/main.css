@@ -223,6 +223,24 @@ main > section {
   width: calc((65vw / 4) - 16px);
 }
 
+.build-grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  margin-bottom: 32px;
+}
+
+.build-object {
+  width: 100%;
+  place-self: center;
+}
+
+.build-object h3,
+.build-object p {
+  padding: 0 32px;
+}
+
 /* END OF MAIN STYLING */
 
 /* FOOTER STYLING */
