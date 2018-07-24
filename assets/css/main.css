@@ -357,4 +357,10 @@ footer .button {
   background-color: #e8e8e8;
 }
 
+#icons {
+  display: flex;
+  flex-direction: row;
+  /* justify-contents: center; */
+}
+
 /* END OF FOOTER STYLING */
