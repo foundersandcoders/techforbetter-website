@@ -241,6 +241,10 @@ main > section {
   padding: 0 32px;
 }
 
+#final-remark {
+  font-size: 1.4rem;
+}
+
 /* END OF MAIN STYLING */
 
 /* FOOTER STYLING */
