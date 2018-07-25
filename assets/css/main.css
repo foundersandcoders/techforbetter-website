@@ -189,6 +189,11 @@ main > section {
   border-bottom: none;
 }
 
+#please-apply {
+  align-self: center !important;
+  margin-bottom: 16px !important;
+}
+
 #faq button {
   background-color: #409ea9;
   color: #e8e8e8;
@@ -241,6 +246,7 @@ main > section {
 
 .portfolio-item > img {
   width: calc((65vw / 3) - 16px);
+  cursor: pointer;
 }
 
 .partners-grid {

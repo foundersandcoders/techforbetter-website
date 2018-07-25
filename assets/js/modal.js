@@ -6,7 +6,7 @@ var closeModal = document.getElementById("close-modal");
 
 function imageModal(image) {
   modal.style.display = "flex";
-
+  // maybe refactor this
   switch (image.id) {
     case "all-about-me":
       modalImage.src = "images/portfolio/all-about-me.png";
