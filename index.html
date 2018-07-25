@@ -79,35 +79,35 @@
 			</div>
 			<div id="modal">
 				<!-- The Close Button -->
-				<span>&times;</span>
+				<span id="close-modal">&times;</span>
 				<!-- Modal Content (The Image) -->
-				<img src="">
+				<div id="modal-image-container">
+					<img src="" alt="image of mobile web app" id="modal-image">
+				</div>
 				<!-- Modal Caption (Image Text) -->
 				<div>
-					<h1></h1>
-					<p></p>
+					<h1 id="caption-title"></h1>
+					<p id="caption-paragraph"></p>
 				</div>
 			</div>
 			<div class="grid portfolio-grid">
 				<div class="portfolio-item">
-					<img src='images/littlewindow.png' alt='' onclick="imageModal(this)" />
+					<img id="little-window" src='images/littlewindow.png' alt='' onclick="imageModal(this)" />
 				</div>
 				<div class="portfolio-item">
-					<img src='images/breath-with-me.png' alt='' onclick="imageModal(this)"
-					/>
+					<img id="breathe-with-me" src='images/breath-with-me.png' alt='' onclick="imageModal(this)" />
 				</div>
 				<div class="portfolio-item">
-					<img src='images/courtauld.png' alt='' onclick="imageModal(this)" />
+					<img id="courtauld" src='images/courtauld.png' alt='' onclick="imageModal(this)" />
 				</div>
 				<div class="portfolio-item">
-					<img src='images/all-about-me.png' alt='test alt text' onclick="imageModal(this)"
-					/>
+					<img id="all-about-me" src='images/all-about-me.png' alt='test alt text' onclick="imageModal(this)" />
 				</div>
 				<div class="portfolio-item">
-					<img src='images/grow.png' alt='' onclick="imageModal(this)" />
+					<img id="grow" src='images/grow.png' alt='' onclick="imageModal(this)" />
 				</div>
 				<div class="portfolio-item">
-					<img src='images/echo.png' alt='' onclick="imageModal(this)" />
+					<img id="echo" src='images/echo.png' alt='' onclick="imageModal(this)" />
 				</div>
 			</div>
 		</div>
@@ -196,10 +196,11 @@
 </footer>
 
 <!-- Scripts -->
+<script src="assets/js/modal.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+<!-- <script src="assets/js/main.js"></script> -->
 
 <script> // scroll effect when navigating inside webpage
 $(document).ready(function() {

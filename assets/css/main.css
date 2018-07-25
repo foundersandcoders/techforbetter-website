@@ -202,8 +202,36 @@ main > section {
   grid-row-gap: 16px;
 }
 
+#portfolio {
+  z-index: 10;
+}
+
 #modal {
   display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #e8e8e8;
+}
+
+#close-modal {
+  display: flex;
+  align-self: flex-end;
+  font-size: 4rem;
+  margin: 16px;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+#modal-image {
+  display: flex;
+  max-width: 40vw;
+  max-height: 50vh;
+  margin-top: 10vh;
 }
 
 .portfolio-grid {
