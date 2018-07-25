@@ -330,7 +330,7 @@ form {
   border-radius: 8px;
   border-width: 1px;
   border-style: solid;
-  margin: 8px;
+  margin: 16px;
   padding: 16px;
   font-size: 1rem;
   font-family: inherit;
@@ -366,7 +366,8 @@ form {
 } /* can't combine with above - doesn't work for some reason */
 
 footer .button {
-  margin-top: 32px;
+  margin-top: 16px;
+  margin-bottom: 32px;
   color: #409ea9;
   background-color: #e8e8e8;
 }
@@ -404,6 +405,22 @@ footer .button {
 
 .icon-label {
   display: none;
+}
+
+#attribution {
+  font-size: 0.8rem;
+  margin-bottom: 16px;
+  color: #e8e8e8;
+}
+
+#attribution a {
+  text-decoration: none;
+  border-bottom: 1px dotted #e8e8e8;
+  color: #e8e8e8;
+}
+
+#attribution a:hover {
+  border-bottom: none;
 }
 
 /* END OF FOOTER STYLING */
