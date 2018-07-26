@@ -188,7 +188,6 @@ main > section {
   text-align: justify;
 }
 
-#faq p a,
 #faq p a {
   border-bottom: 1px dotted #409ea9;
   text-decoration: none;
@@ -285,8 +284,26 @@ main > section {
   grid-template-rows: repeat(2, 1fr);
 }
 
+.portfolio-item {
+  max-width: calc((65vw / 3) - 16px);
+  max-height: calc((65vw / 3) - 32px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 .portfolio-item > img {
   width: calc((65vw / 3) - 16px);
+  cursor: pointer;
+  -webkit-transition: width 0.2s ease-out;
+  -moz-transition: width 0.2s ease-out;
+  -o-transition: width 0.2s ease-out;
+  transition: width 0.2s ease-out;
+}
+
+.portfolio-item > img:hover {
+  width: calc(65vw / 3);
   cursor: pointer;
 }
 
