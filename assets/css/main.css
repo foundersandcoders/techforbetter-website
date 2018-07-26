@@ -29,8 +29,6 @@ h3 {
   padding: 16px 0;
   width: 16rem;
   border-radius: 5px;
-  /* margin-top: 8px; */
-  /* margin-bottom: 24px; */
   cursor: pointer;
 }
 
@@ -117,6 +115,10 @@ header button {
   background-color: #e8e8e8;
   color: #409ea9;
   margin-bottom: 32px;
+  -webkit-transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  -moz-transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  -o-transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
 }
 
 header button:hover {
@@ -186,15 +188,19 @@ main > section {
   text-align: justify;
 }
 
-#faq p a:link,
-#faq p a:visited {
+#faq p a,
+#faq p a {
   border-bottom: 1px dotted #409ea9;
   text-decoration: none;
   color: #409ea9;
+  -webkit-transition: border-bottom 0.4s ease-out;
+  -moz-transition: border-bottom 0.4s ease-out;
+  -o-transition: border-bottom 0.4s ease-out;
+  transition: border-bottom 0.4s ease-out;
 }
 
 #faq p a:hover {
-  border-bottom: none;
+  border-bottom: 1px dotted #ffffff;
 }
 
 #please-apply {
@@ -206,6 +212,10 @@ main > section {
   border-color: #409ea9;
   background-color: #409ea9;
   color: #e8e8e8;
+  -webkit-transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  -moz-transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  -o-transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
 }
 
 #faq button:hover {
@@ -255,10 +265,14 @@ main > section {
   text-decoration: none;
   color: #e8e8e8;
   border-bottom: 1px dotted #e8e8e8;
+  -webkit-transition: border-bottom 0.4s ease-out;
+  -moz-transition: border-bottom 0.4s ease-out;
+  -o-transition: border-bottom 0.4s ease-out;
+  transition: border-bottom 0.4s ease-out;
 }
 
 #caption-title a:hover {
-  border-bottom: none;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.9);
 }
 
 #caption-paragraph {
@@ -431,6 +445,10 @@ footer .button {
   margin-bottom: 32px;
   color: #409ea9;
   background-color: #e8e8e8;
+  -webkit-transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  -moz-transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  -o-transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
 }
 
 footer .button:hover {
@@ -456,6 +474,10 @@ footer .button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  -o-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
 }
 
 .icon:hover {
@@ -481,12 +503,16 @@ footer .button:hover {
 
 #attribution a {
   text-decoration: none;
-  border-bottom: 1px dotted #e8e8e8;
   color: #e8e8e8;
+  border-bottom: 1px dotted #e8e8e8;
+  -webkit-transition: border-bottom 0.4s ease-out;
+  -moz-transition: border-bottom 0.4s ease-out;
+  -o-transition: border-bottom 0.4s ease-out;
+  transition: border-bottom 0.4s ease-out;
 }
 
 #attribution a:hover {
-  border-bottom: none;
+  border-bottom: 1px dotted #409ea9;
 }
 
 /* END OF FOOTER STYLING */
