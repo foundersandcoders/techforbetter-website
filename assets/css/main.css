@@ -236,10 +236,8 @@ main > section {
 }
 
 #modal-image {
-  display: flex;
   max-width: 40vw;
   max-height: 50vh;
-  margin-top: 10vh;
 }
 
 #caption-title a {
@@ -250,6 +248,11 @@ main > section {
 
 #caption-title a:hover {
   border-bottom: none;
+}
+
+#caption-paragraph {
+  width: 65vw;
+  margin-bottom: 0;
 }
 
 .portfolio-grid {
