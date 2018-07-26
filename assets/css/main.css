@@ -115,10 +115,10 @@ header button {
   background-color: #e8e8e8;
   color: #409ea9;
   margin-bottom: 32px;
-  -webkit-transition: color 0.4s ease-out, background-color 0.4s ease-out;
-  -moz-transition: color 0.4s ease-out, background-color 0.4s ease-out;
-  -o-transition: color 0.4s ease-out, background-color 0.4s ease-out;
-  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 header button:hover {
@@ -193,10 +193,10 @@ main > section {
   border-bottom: 1px dotted #409ea9;
   text-decoration: none;
   color: #409ea9;
-  -webkit-transition: border-bottom 0.4s ease-out;
-  -moz-transition: border-bottom 0.4s ease-out;
-  -o-transition: border-bottom 0.4s ease-out;
-  transition: border-bottom 0.4s ease-out;
+  -webkit-transition: border-bottom 0.2s ease-out;
+  -moz-transition: border-bottom 0.2s ease-out;
+  -o-transition: border-bottom 0.2s ease-out;
+  transition: border-bottom 0.2s ease-out;
 }
 
 #faq p a:hover {
@@ -212,10 +212,10 @@ main > section {
   border-color: #409ea9;
   background-color: #409ea9;
   color: #e8e8e8;
-  -webkit-transition: color 0.4s ease-out, background-color 0.4s ease-out;
-  -moz-transition: color 0.4s ease-out, background-color 0.4s ease-out;
-  -o-transition: color 0.4s ease-out, background-color 0.4s ease-out;
-  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 #faq button:hover {
@@ -265,10 +265,10 @@ main > section {
   text-decoration: none;
   color: #e8e8e8;
   border-bottom: 1px dotted #e8e8e8;
-  -webkit-transition: border-bottom 0.4s ease-out;
-  -moz-transition: border-bottom 0.4s ease-out;
-  -o-transition: border-bottom 0.4s ease-out;
-  transition: border-bottom 0.4s ease-out;
+  -webkit-transition: border-bottom 0.2s ease-out;
+  -moz-transition: border-bottom 0.2s ease-out;
+  -o-transition: border-bottom 0.2s ease-out;
+  transition: border-bottom 0.2s ease-out;
 }
 
 #caption-title a:hover {
@@ -445,10 +445,10 @@ footer .button {
   margin-bottom: 32px;
   color: #409ea9;
   background-color: #e8e8e8;
-  -webkit-transition: color 0.4s ease-out, background-color 0.4s ease-out;
-  -moz-transition: color 0.4s ease-out, background-color 0.4s ease-out;
-  -o-transition: color 0.4s ease-out, background-color 0.4s ease-out;
-  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 footer .button:hover {
@@ -474,10 +474,10 @@ footer .button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  -webkit-transition: background-color 0.4s ease-out;
-  -moz-transition: background-color 0.4s ease-out;
-  -o-transition: background-color 0.4s ease-out;
-  transition: background-color 0.4s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
 }
 
 .icon:hover {
@@ -505,10 +505,10 @@ footer .button:hover {
   text-decoration: none;
   color: #e8e8e8;
   border-bottom: 1px dotted #e8e8e8;
-  -webkit-transition: border-bottom 0.4s ease-out;
-  -moz-transition: border-bottom 0.4s ease-out;
-  -o-transition: border-bottom 0.4s ease-out;
-  transition: border-bottom 0.4s ease-out;
+  -webkit-transition: border-bottom 0.2s ease-out;
+  -moz-transition: border-bottom 0.2s ease-out;
+  -o-transition: border-bottom 0.2s ease-out;
+  transition: border-bottom 0.2s ease-out;
 }
 
 #attribution a:hover {
