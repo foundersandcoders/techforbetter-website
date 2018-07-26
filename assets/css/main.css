@@ -112,11 +112,16 @@ header p {
   margin-bottom: 48px;
 }
 
-header button,
 header button {
+  border: none;
   background-color: #e8e8e8;
   color: #409ea9;
   margin-bottom: 32px;
+}
+
+header button:hover {
+  background-color: #409ea9;
+  color: #e8e8e8;
 }
 
 /* END OF HEADER STYLING */
@@ -198,8 +203,14 @@ main > section {
 }
 
 #faq button {
+  border-color: #409ea9;
   background-color: #409ea9;
   color: #e8e8e8;
+}
+
+#faq button:hover {
+  background-color: #ffffff;
+  color: #409ea9;
 }
 
 .grid {
@@ -420,6 +431,11 @@ footer .button {
   margin-bottom: 32px;
   color: #409ea9;
   background-color: #e8e8e8;
+}
+
+footer .button:hover {
+  background-color: #409ea9;
+  color: #e8e8e8;
 }
 
 .icon-container {
