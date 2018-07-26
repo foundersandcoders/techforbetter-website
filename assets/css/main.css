@@ -1,4 +1,7 @@
 /* is font-family being applied everywhere? */
+/* safari doesn't do clip paths? */
+/* central line not appearing in main in safari */
+/* deafult button shadows in firefox & safari */
 
 body,
 main {
