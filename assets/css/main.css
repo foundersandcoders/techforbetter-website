@@ -143,7 +143,8 @@ main > section {
   text-align: center;
   margin-top: 8vh;
   padding-bottom: 32px;
-  width: 60%;
+  /* width: 60%; */
+  width: 850px;
   background-color: white;
   z-index: 1;
 }
@@ -544,3 +545,136 @@ footer .button:hover {
 }
 
 /* END OF FOOTER STYLING */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 950px) {
+  main > section {
+    width: 80vw;
+  }
+
+  #faq {
+    width: 75vw;
+  }
+
+  .border,
+  .section-header {
+    width: 80vw;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 80vw;
+  }
+
+  .portfolio-item {
+    width: calc((80vw / 2) - 16px);
+    height: calc((80vw / 2) - 32px);
+    display: grid;
+    place-self: center;
+    overflow: hidden;
+  }
+
+  .portfolio-item > img {
+    width: calc((80vw / 2) - 16px);
+  }
+
+  .portfolio-item > img:hover {
+    width: calc(80vw / 2);
+  }
+
+  .partners-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-tempalte-rows: repeat(4, 1fr);
+    width: 80vw;
+  }
+
+  .partners-item {
+    place-self: center;
+    width: calc((80vw / 3) - 16px);
+  }
+
+  .build-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .build-object h3,
+  .build-object p {
+    padding: 0 16px;
+  }
+
+  .build-object h3 {
+    font-size: 1rem;
+  }
+
+  .build-object p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .build-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .build-grid {
+    position: relative;
+    margin-bottom: 128px;
+  }
+
+  .build-object p {
+    margin-bottom: 32px;
+  }
+
+  #swap {
+    position: absolute;
+    top: 100%;
+    bottom: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-header {
+    font-size: 1.2rem;
+  }
+
+  #faq .border + p {
+    font-size: 1.1rem;
+  }
+
+  #faq h3 {
+    font-size: 1rem;
+  }
+
+  #faq p {
+    font-size: 0.9rem;
+  }
+
+  .build-grid + p {
+    font-size: 0.9rem;
+  }
+
+  #final-remark {
+    font-size: 1.1rem;
+  }
+
+  .partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-tempalte-rows: repeat(6, 1fr);
+    width: 80vw;
+  }
+
+  .partners-item {
+    place-self: center;
+    width: calc((80vw / 2) - 16px);
+  }
+}
+
+/* END OF MEDIA QUERIES */
