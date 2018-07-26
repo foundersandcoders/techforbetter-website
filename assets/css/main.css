@@ -239,6 +239,16 @@ main > section {
   margin-top: 10vh;
 }
 
+#caption-title a {
+  text-decoration: none;
+  color: #e8e8e8;
+  border-bottom: 1px dotted #e8e8e8;
+}
+
+#caption-title a:hover {
+  border-bottom: none;
+}
+
 .portfolio-grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
