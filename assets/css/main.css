@@ -2,6 +2,7 @@
 /* safari doesn't do clip paths? */
 /* central line not appearing in main in safari */
 /* deafult button shadows in firefox & safari */
+/* make modal responsive */
 
 body,
 main {
@@ -319,7 +320,7 @@ main > section {
 
 .partners-grid {
   grid-template-columns: repeat(4, 1fr);
-  grid-tempalte-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .partners-item {
@@ -586,7 +587,7 @@ footer .button:hover {
 
   .partners-grid {
     grid-template-columns: repeat(3, 1fr);
-    grid-tempalte-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     width: 80vw;
   }
 
@@ -633,6 +634,7 @@ footer .button:hover {
     margin-bottom: 32px;
   }
 
+  /* swaps Build Week 2 photo & caption around for readability */
   #swap {
     position: absolute;
     top: 100%;
@@ -641,6 +643,14 @@ footer .button:hover {
 }
 
 @media screen and (max-width: 600px) {
+  main > section {
+    width: 90vw;
+  }
+
+  #faq {
+    width: 85vw;
+  }
+
   .section-header {
     font-size: 1.2rem;
   }
@@ -667,7 +677,7 @@ footer .button:hover {
 
   .partners-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-tempalte-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     width: 80vw;
   }
 
