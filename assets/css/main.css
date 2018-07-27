@@ -144,7 +144,6 @@ main > section {
   text-align: center;
   margin-top: 8vh;
   padding-bottom: 32px;
-  /* width: 60%; */
   width: 850px;
   background-color: white;
   z-index: 1;
@@ -152,7 +151,6 @@ main > section {
 
 #faq {
   width: 640px;
-  /* width: 50vw; */
 }
 
 .border,
@@ -161,7 +159,6 @@ main > section {
   border-width: thin;
   border-color: #e8e8e8;
   width: 704px;
-  /* width: 55vw; */
 }
 
 .border {
@@ -229,7 +226,6 @@ main > section {
 
 .grid {
   display: grid;
-  /* width: 65vw; */
   width: 850px;
   margin-top: 16px;
   grid-column-gap: 16px;
@@ -282,7 +278,6 @@ main > section {
 
 #caption-paragraph {
   max-width: 850px;
-  /* width: 65vw; */
   margin-bottom: 0;
 }
 
@@ -294,8 +289,6 @@ main > section {
 .portfolio-item {
   width: calc((850px / 3) - 16px);
   height: calc((850px / 3) - 32px);
-  /* max-width: calc((65vw / 3) - 16px);
-  max-height: calc((65vw / 3) - 32px); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,7 +297,6 @@ main > section {
 
 .portfolio-item > img {
   width: calc((850px / 3) - 16px);
-  /* width: calc((65vw / 3) - 16px); */
   cursor: pointer;
   -webkit-transition: width 0.3s ease-out;
   -moz-transition: width 0.3s ease-out;
@@ -314,7 +306,6 @@ main > section {
 
 .portfolio-item > img:hover {
   width: calc(850px / 3);
-  /* width: calc(65vw / 3); */
   cursor: pointer;
 }
 
@@ -326,7 +317,6 @@ main > section {
 .partners-item {
   place-self: center;
   width: calc((850px / 4) - 16px);
-  /* width: calc((65vw / 4) - 16px); */
 }
 
 .build-grid {
@@ -342,13 +332,15 @@ main > section {
   place-self: center;
 }
 
-.build-object h3,
-.build-object p {
+.build-object h3 {
   padding: 0 32px;
+  margin: 16px 0 8px 0;
 }
 
 .build-object p {
   text-align: justify;
+  padding: 0 32px;
+  margin-top: 0;
 }
 
 .grid + p {
@@ -394,7 +386,6 @@ footer {
 
 #contact {
   width: 704px;
-  /* width: 55vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -601,6 +592,10 @@ footer .button:hover {
     grid-template-rows: repeat(2, 1fr);
     width: 80vw;
   }
+  form,
+  #contact {
+    width: 80vw;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -627,7 +622,7 @@ footer .button:hover {
 
   .build-grid {
     position: relative;
-    margin-bottom: 128px;
+    margin-bottom: 96px;
   }
 
   .build-object p {
@@ -643,6 +638,22 @@ footer .button:hover {
 }
 
 @media screen and (max-width: 600px) {
+  #fac_lightbulb {
+    height: 100px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+  }
+
   main > section {
     width: 90vw;
   }
@@ -684,6 +695,61 @@ footer .button:hover {
   .partners-item {
     place-self: center;
     width: calc((80vw / 2) - 16px);
+  }
+
+  .form-line {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-input-top-line {
+    width: 100%;
+  }
+
+  #message {
+    width: calc(100% - 32px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .icon-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 0;
+    padding-bottom: 16px;
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+  .icon {
+    margin: 8px;
+    place-self: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .button {
+    width: 80vw;
+  }
+
+  header h1 {
+    margin: 16px 0;
+  }
+
+  header p {
+    width: 85vw;
+    padding: 0;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  #header-background {
+    height: 650px;
   }
 }
 
