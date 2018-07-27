@@ -76,7 +76,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
-  height: 90vh;
+  height: 650px;
   width: 100%;
   padding-top: 10vh;
 }
@@ -744,12 +744,6 @@ footer .button:hover {
     width: 85vw;
     padding: 0;
     margin-bottom: 32px;
-  }
-}
-
-@media screen and (max-height: 650px) {
-  #header-background {
-    height: 650px;
   }
 }
 
