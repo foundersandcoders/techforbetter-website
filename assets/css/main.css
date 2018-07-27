@@ -263,6 +263,7 @@ main > section {
 }
 
 #caption-title a {
+  padding: 0 8px;
   text-decoration: none;
   color: #e8e8e8;
   border-bottom: 1px dotted #e8e8e8;
@@ -279,6 +280,7 @@ main > section {
 #caption-paragraph {
   max-width: 850px;
   margin-bottom: 0;
+  padding: 0 16px;
 }
 
 .portfolio-grid {
@@ -592,6 +594,7 @@ footer .button:hover {
     grid-template-rows: repeat(2, 1fr);
     width: 80vw;
   }
+
   form,
   #contact {
     width: 80vw;
@@ -599,6 +602,27 @@ footer .button:hover {
 }
 
 @media screen and (max-width: 800px) {
+  #close-modal {
+    font-size: 3rem;
+    margin: 8px;
+    line-height: 1.5rem;
+  }
+
+  #modal-image {
+    max-width: 30vw;
+    max-height: 40vh;
+  }
+
+  #caption-title a {
+    font-size: 1rem;
+  }
+
+  #caption-paragraph {
+    width: 80vw;
+    font-size: 0.9rem;
+    margin-top: 0;
+  }
+
   .build-object h3,
   .build-object p {
     padding: 0 16px;
