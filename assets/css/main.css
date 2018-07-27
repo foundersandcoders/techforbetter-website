@@ -240,6 +240,7 @@ main > section {
   display: none;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -249,8 +250,9 @@ main > section {
 }
 
 #close-modal {
-  display: flex;
-  align-self: flex-end;
+  position: fixed;
+  top: 0;
+  right: 0;
   font-size: 4rem;
   margin: 16px;
   line-height: 2rem;
