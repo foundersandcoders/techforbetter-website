@@ -610,11 +610,6 @@ footer .button:hover {
     line-height: 1.5rem;
   }
 
-  #modal-image {
-    max-width: 30vw;
-    max-height: 40vh;
-  }
-
   #caption-title a {
     font-size: 1rem;
   }
@@ -770,6 +765,13 @@ footer .button:hover {
     width: 85vw;
     padding: 0;
     margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  #modal-image {
+    max-width: 30vw;
+    max-height: 40vh;
   }
 }
 
