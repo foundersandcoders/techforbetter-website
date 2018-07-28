@@ -1,7 +1,5 @@
-/* Safari doesn't do clip paths? */
 /* central line not appearing in main in Safari */
-/* default button shadows in Firefox & Safari */
-/* no hover animation on portfolio app pictures in Firefox */
+/* no hover animation on portfolio app pictures in Firefox - fix causes image sizing problems in other browsers  */
 
 body,
 main {
@@ -75,6 +73,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
   height: 650px;
   width: 100%;
   padding-top: 10vh;
@@ -311,7 +310,6 @@ main > section {
 
 .portfolio-item > img:hover {
   width: calc(850px / 3);
-  cursor: pointer;
 }
 
 .partners-grid {
@@ -380,6 +378,7 @@ main > section {
 
 footer {
   clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 50% 15%);
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 50% 15%);
   background-color: #409ea9;
   width: 100vw;
   display: flex;
