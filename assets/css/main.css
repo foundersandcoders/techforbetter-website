@@ -1,8 +1,7 @@
-/* is font-family being applied everywhere? */
-/* safari doesn't do clip paths? */
-/* central line not appearing in main in safari */
-/* deafult button shadows in firefox & safari */
-/* make modal responsive */
+/* Safari doesn't do clip paths? */
+/* central line not appearing in main in Safari */
+/* default button shadows in Firefox & Safari */
+/* no hover animation on portfolio app pictures in Firefox */
 
 body,
 main {
@@ -213,6 +212,8 @@ main > section {
   border-color: #409ea9;
   background-color: #409ea9;
   color: #e8e8e8;
+  border-style: solid;
+  border-width: thin;
   -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out;
   -o-transition: color 0.2s ease-out, background-color 0.2s ease-out;
@@ -474,6 +475,8 @@ footer .button {
   margin-bottom: 32px;
   color: #409ea9;
   background-color: #e8e8e8;
+  border-style: solid;
+  border-width: thin;
   -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out;
   -o-transition: color 0.2s ease-out, background-color 0.2s ease-out;
