@@ -1,26 +1,35 @@
 <!DOCTYPE HTML>
+
+<!--
+	by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
 <html>
 
 <head>
 	<title>Founders &amp; Coders, Tech for Better</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!--Meta tags for link sharing on Twitter and Facebook-->
 	<meta property="og:url" content="https://techforbetter.foundersandcoders.com/">
 	<meta property="og:title" content="Founders &amp; Coders, Tech for Better">
 	<meta property="og:description" content="A pro bono programme using digital technology to create positive social impact.">
-	<meta property="og:image" content="https://raw.githubusercontent.com/foundersandcoders/techforbetter-website/master/images/social-preview-new.png"> <!--may need to update link-->
+	<meta property="og:image" content="https://raw.githubusercontent.com/foundersandcoders/techforbetter-website/master/images/social-preview.png">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:url" content="https://techforbetter.foundersandcoders.com/">
 	<meta name="twitter:title" content="Founders &amp; Coders, Tech for Better">
 	<meta name="twitter:description" content="A pro bono programme using digital technology to create positive social impact.">
-	<meta name="twitter:image" content="https://raw.githubusercontent.com/foundersandcoders/techforbetter-website/master/images/social-preview-new.png"> <!--may need to update link-->
+	<meta name="twitter:image" content="https://raw.githubusercontent.com/foundersandcoders/techforbetter-website/master/images/social-preview.png">
+
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 </head>
 
-<body>
+<body class="preload">
 
 	<div id="body">
 		<div class="body" id="body-left"></div>
@@ -79,13 +88,10 @@
 				<h2 class="section-header">Portfolio</h2>
 			</div>
 			<div id="modal">
-				<!-- The Close Button -->
 				<span id="close-modal">&times;</span>
-				<!-- Modal Content (The Image) -->
 				<div id="modal-image-container">
 					<img src="" alt="image of mobile web app" id="modal-image">
 				</div>
-				<!-- Modal Caption (Image Text) -->
 				<div>
 					<h1 id="caption-title"></h1>
 					<p id="caption-paragraph"></p>
@@ -194,12 +200,11 @@
 
 </footer>
 
-<!-- Scripts -->
 <script src="assets/js/modal.js"></script>
 <script src="assets/js/jquery.min.js"></script>
-<!-- <script src="assets/js/main.js"></script> -->
+<script src="assets/js/main.js"></script>
 
-<script> // scroll effect when navigating inside webpage?
+<script> // scroll effect when navigating inside webpage
 $(document).ready(function() {
   $("a").on("click", function(event) {
     if (this.hash !== "") {

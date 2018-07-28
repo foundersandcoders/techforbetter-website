@@ -1,5 +1,13 @@
-/* central line not appearing in main in Safari */
+/* main central line not appearing in Safari */
 /* no hover animation on portfolio app pictures in Firefox - fix causes image sizing problems in other browsers  */
+
+/* prevent animations & transitions until page has loaded */
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
 
 body,
 main {
