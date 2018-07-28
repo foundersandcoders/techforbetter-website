@@ -72,8 +72,8 @@ header {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
   height: 650px;
   width: 100%;
   padding-top: 10vh;
@@ -260,7 +260,7 @@ main > section {
 }
 
 #modal-image {
-  max-width: 40vw;
+  max-width: 60vw;
   max-height: 50vh;
 }
 
@@ -377,8 +377,8 @@ main > section {
 }
 
 footer {
-  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 50% 15%);
   -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 50% 15%);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%, 50% 15%);
   background-color: #409ea9;
   width: 100vw;
   display: flex;
