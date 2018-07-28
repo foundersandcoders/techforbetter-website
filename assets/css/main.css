@@ -434,6 +434,10 @@ form {
   padding: 16px;
   font-size: 1rem;
   font-family: inherit;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
 }
 
 .form-input:focus {
