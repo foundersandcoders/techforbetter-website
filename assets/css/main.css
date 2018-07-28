@@ -249,6 +249,12 @@ main > section {
   color: #e8e8e8;
 }
 
+#modal div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #close-modal {
   position: fixed;
   top: 0;
@@ -264,8 +270,12 @@ main > section {
   max-height: 50vh;
 }
 
+#caption-title {
+  margin: 8px 16px;
+  line-height: normal;
+}
+
 #caption-title a {
-  padding: 0 8px;
   text-decoration: none;
   color: #e8e8e8;
   border-bottom: 1px dotted #e8e8e8;
@@ -281,8 +291,9 @@ main > section {
 
 #caption-paragraph {
   max-width: 850px;
-  margin-bottom: 0;
+  margin: 0;
   padding: 0 16px;
+  text-align: justify;
 }
 
 .portfolio-grid {
@@ -778,6 +789,10 @@ footer .button:hover {
   #modal-image {
     max-width: 30vw;
     max-height: 40vh;
+  }
+
+  #caption-paragraph {
+    font-size: 0.8rem;
   }
 }
 
