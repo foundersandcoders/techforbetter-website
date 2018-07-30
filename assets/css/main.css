@@ -474,7 +474,7 @@ form {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-contents: center;
+  justify-content: center;
 }
 
 .form-input {
