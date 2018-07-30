@@ -500,7 +500,8 @@ form {
   outline-width: 1px;
   outline-offset: 4px;
   outline-color: #409ea9;
-  background-color: rgba(232, 232, 232, 0.1);
+  color: #409ea9;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .form-input-top-line {
@@ -545,7 +546,7 @@ footer .button:hover {
 .icon-container {
   display: flex;
   flex-direction: row;
-  justify-contents: center;
+  justify-content: center;
   padding: 32px;
 }
 
