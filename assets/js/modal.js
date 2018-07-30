@@ -10,7 +10,7 @@ var modalData = {
     image: "images/portfolio/all-about-me.png",
     url: "https://allaboutme-af.herokuapp.com/",
     description:
-      "All About Me is an app to help young people at The Anna Freud Centre easily transition into adult care.\n\nPatients at The Anna Freud Centre were tired of being asked the same questions every time their clinician changed or they went to a new centre. All About Me allows patients to answer a questionnaire online in their own time, save their answers, and when they're ready they can send their form to their clinician."
+      "All About Me is an app to help young people at The Anna Freud Centre easily transition into adult care. Patients at The Anna Freud Centre were tired of being asked the same questions every time their clinician changed or they went to a new centre. All About Me allows patients to answer a questionnaire online in their own time, save their answers, and when they're ready they can send their form to their clinician."
   },
   "breathe-with-me": {
     title: "Breathe With Me",
