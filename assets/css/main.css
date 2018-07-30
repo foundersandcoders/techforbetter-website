@@ -148,6 +148,14 @@ main > section {
   width: 640px;
 }
 
+ul {
+  display: inline-block;
+  text-align: left;
+}
+li ul {
+  text-align: center;
+}
+
 .border,
 .section-header {
   border-style: solid none;
