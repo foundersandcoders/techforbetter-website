@@ -345,7 +345,7 @@ li ul {
 }
 
 .sponsor-item {
-    padding: 1rem 1rem 0rem 1rem;
+    margin-top: 16px;
     width: 50vw;
 }
 
@@ -623,6 +623,10 @@ footer .button:hover {
         place-self: center;
         width: calc((80vw / 3) - 16px);
     }
+    
+    .sponsor-item {
+        width: 80vw;
+    }
 
     .build-grid {
         width: 80vw;
@@ -801,9 +805,6 @@ footer .button:hover {
         padding: 0;
         margin-bottom: 32px;
     }
-    .sponsor-item {
-        width: 80%;
-    }
 }
 
 @media screen and (max-height: 400px) {
@@ -817,7 +818,7 @@ footer .button:hover {
     }
 
     .sponsor-item {
-        width: 80%;
+        width: 80vw;
     }
 }
 
