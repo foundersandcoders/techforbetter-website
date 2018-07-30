@@ -112,15 +112,22 @@ header button {
   background-color: #e8e8e8;
   color: #409ea9;
   margin-bottom: 32px;
-  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
-  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out;
-  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out;
-  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
 }
 
 header button:hover {
   background-color: #409ea9;
   color: #e8e8e8;
+  font-size: 1rem;
+}
+
+header button:focus {
+  background-color: #409ea9;
+  color: #e8e8e8;
+  font-size: 1rem;
 }
 
 /* END OF HEADER STYLING */
@@ -220,15 +227,22 @@ li ul {
   color: #e8e8e8;
   border-style: solid;
   border-width: thin;
-  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
-  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out;
-  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out;
-  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
 }
 
 #faq button:hover {
   background-color: #ffffff;
   color: #409ea9;
+  font-size: 1rem;
+}
+
+#faq button:focus {
+  background-color: #ffffff;
+  color: #409ea9;
+  font-size: 1rem;
 }
 
 .grid {
@@ -532,15 +546,22 @@ footer .button {
   background-color: #e8e8e8;
   border-style: solid;
   border-width: thin;
-  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
-  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out;
-  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out;
-  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out, font-size 0.2s ease-out;
 }
 
 footer .button:hover {
   background-color: #409ea9;
   color: #e8e8e8;
+  font-size: 1rem;
+}
+
+footer .button:focus {
+  background-color: #409ea9;
+  color: #e8e8e8;
+  font-size: 1rem;
 }
 
 .icon-container {
