@@ -57,6 +57,7 @@ header {
     width: 100vw;
     color: white;
     font-size: 1rem;
+    z-index: 0;             /*Set to 0 to prevent vertical line from showming in MS Edge*/
 }
 
 #header-background {
@@ -370,6 +371,7 @@ li ul {
 .partners-grid {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    align-items: center;                    /*Sort of aligns the logos*/
 }
 
 .partners-item {
