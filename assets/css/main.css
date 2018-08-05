@@ -372,10 +372,10 @@ li ul {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     align-items: center;                    /*Sort of aligns the logos*/
+    justify-items: center;
 }
 
 .partners-item {
-    place-self: center;
     width: calc((850px / 4) - 16px);
 }
 
