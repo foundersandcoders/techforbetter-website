@@ -166,6 +166,7 @@ main > section {
 
 #intro {
   font-size: 1.4rem;
+  margin-top: 48px;
 }
 
 .grid {
@@ -710,6 +711,10 @@ footer .button:hover {
 }
 
 @media screen and (max-width: 650px) {
+  main > section {
+    padding-bottom: 8px;
+  }
+
   .build-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -738,6 +743,14 @@ footer .button:hover {
     display: grid;
     grid-row-start: 3;
     grid-row-end: 4;
+  }
+
+  #faq {
+    padding-bottom: 32px;
+  }
+
+  .portfolio-grid {
+    padding-bottom: 32px;
   }
 }
 
@@ -785,6 +798,8 @@ footer .button:hover {
   #intro {
     font-size: 1.1rem;
     width: 80vw;
+    margin-top: 32px;
+    margin-bottom: 0;
   }
 
   .partners-grid {
