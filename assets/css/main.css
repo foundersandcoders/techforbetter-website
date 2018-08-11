@@ -6,6 +6,7 @@ main {
   align-items: center;
   font-family: "Source Sans Pro", sans-serif;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 h1,
@@ -264,17 +265,6 @@ main > section {
   color: #409ea9;
 }
 
-/* ul {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  display: inline-block;
-  text-align: left;
-}
-
-li ul {
-  text-align: center;
-} */
-
 #about-us p {
   text-align: justify;
   width: 640px;
@@ -408,17 +398,6 @@ li ul {
 
 .portfolio-item > img:hover {
   width: calc(850px / 3);
-}
-
-.partners-grid {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  align-items: center; /*Sort of aligns the logos*/
-  justify-items: center;
-}
-
-.partners-item {
-  width: calc((850px / 4) - 16px);
 }
 
 .sponsor-container {
