@@ -243,6 +243,7 @@ main > section {
 
 #please-apply {
   align-self: center !important;
+  text-align: center !important;
   margin-bottom: 16px !important;
 }
 
@@ -263,7 +264,7 @@ main > section {
   color: #409ea9;
 }
 
-ul {
+/* ul {
   margin-top: 0px;
   margin-bottom: 0px;
   display: inline-block;
@@ -272,6 +273,13 @@ ul {
 
 li ul {
   text-align: center;
+} */
+
+#about-us p {
+  text-align: justify;
+  width: 640px;
+  margin-top: 32px;
+  margin-bottom: 0;
 }
 
 #portfolio {
@@ -366,7 +374,7 @@ li ul {
   transition: 0.6s ease;
   background-color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
-  pointer-events: none; /* This makes the overlay divs unclickable, making the image underneath still clickable */
+  pointer-events: none;
 }
 
 .portfolio-overlay-text {
@@ -381,7 +389,7 @@ li ul {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  pointer-events: none; /* This makes the overlay divs unclickable, making the image underneath still clickable */
+  pointer-events: none;
 }
 
 .portfolio-item:hover .portfolio-overlay {
@@ -623,13 +631,14 @@ footer .button:hover {
     width: 80vw;
   }
 
-  #faq {
-    width: 75vw;
-  }
-
   .border,
   .section-header {
     width: 80vw;
+  }
+
+  #faq,
+  #about-us p {
+    width: 75vw;
   }
 
   .portfolio-grid {
@@ -745,7 +754,8 @@ footer .button:hover {
     grid-row-end: 4;
   }
 
-  #faq {
+  #faq,
+  #about-us {
     padding-bottom: 32px;
   }
 
@@ -775,7 +785,8 @@ footer .button:hover {
     width: 90vw;
   }
 
-  #faq {
+  #faq,
+  #about-us p {
     width: 85vw;
   }
 
@@ -791,8 +802,10 @@ footer .button:hover {
     font-size: 1rem;
   }
 
-  #faq p {
+  #faq p,
+  #about-us p {
     font-size: 0.9rem;
+    text-align: left;
   }
 
   #intro {
