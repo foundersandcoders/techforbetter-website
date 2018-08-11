@@ -214,7 +214,7 @@
 			</div>
 			<div class="sponsor-container">
 				<a href="http://intersticia.com.au/foundation/" target="_blank">
-					<img class="sponsor-item" src='images/portfolio/intersticia_foundation_logo_1024x321.jpg' alt="intersticia logo" />
+					<img class="sponsor-item" src='images/portfolio/intersticia_logo.jpg' alt="intersticia logo" />
 				</a>
 			</div>
 		</section>
@@ -305,24 +305,24 @@
 	<script src="assets/js/main.js"></script>
 
 	<script> // scroll effect when navigating inside webpage
-		$(document).ready(function () {
-			$("a").on("click", function (event) {
-				if (this.hash !== "") {
-					event.preventDefault();
-					var hash = this.hash;
-					$("html, body").animate(
-						{
-							scrollTop: $(hash).offset().top
-						},
-						800,
-						function () {
-							window.location.hash = hash;
-						}
-					);
-				}
-			});
-		});
-	</script>
+	$(document).ready(function() {
+  $("a").on("click", function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
+    }
+  });
+});
+</script>
 
 </body>
 
