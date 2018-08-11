@@ -6,6 +6,7 @@ main {
     align-items: center;
     font-family: "Source Sans Pro", sans-serif;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 h1,
