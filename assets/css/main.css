@@ -272,6 +272,20 @@ main > section {
   margin-bottom: 0;
 }
 
+#about-us a {
+  border-bottom: 1px dotted #409ea9;
+  text-decoration: none;
+  color: #409ea9;
+  -webkit-transition: border-bottom 0.2s ease-out;
+  -moz-transition: border-bottom 0.2s ease-out;
+  -o-transition: border-bottom 0.2s ease-out;
+  transition: border-bottom 0.2s ease-out;
+}
+
+#about-us a:hover {
+  border-bottom: 1px dotted #ffffff;
+}
+
 #portfolio {
   z-index: 10;
 }
