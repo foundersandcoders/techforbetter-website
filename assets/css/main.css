@@ -94,6 +94,20 @@ header h1 {
   margin: 32px 0;
 }
 
+header h1 a {
+  border-bottom: 2px dotted #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: border-bottom 0.2s ease-out;
+  -moz-transition: border-bottom 0.2s ease-out;
+  -o-transition: border-bottom 0.2s ease-out;
+  transition: border-bottom 0.2s ease-out;
+}
+
+header h1 a:hover {
+  border-bottom: 2px dotted rgba(255, 255, 255, 0);
+}
+
 header h2 {
   font-weight: 600;
   font-size: 2em;
